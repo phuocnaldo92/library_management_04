@@ -1,0 +1,33 @@
+<div class="home-login">
+  <div class="logo-bottom-rev">
+    <%= image_tag "logo-bottom-rev.png" %>
+  </div>
+  <a id="main-content"></a>
+  <div class="title-wrapp">
+    <h1 class="page-header"><%= t "signup" %></h1>
+  </div>
+  <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+      <div class="block-wrapp">
+        <%= form_for @user do |f| %>
+          <%= render "shared/error_messages" %>
+          <table class="table-width100">
+            <tr>
+              <td><%= f.label :email, t("email_small") %></td>
+              <td><%= f.text_field :email, id: "edit-name" %></td>
+            </tr>
+            <tr>
+              <td><%= f.label :Password %></td>
+              <td><%= f.password_field :password, id: "edit-pass" %></td>
+            </tr>
+            <tr>
+              <td><%= f.label :password_confirmation, t("confirmation") %></td>
+              <td><%= f.password_field :password_confirmation, id: "edit-pass" %></td>
+            </tr>
+          </table>
+          <%= f.submit t("create_my_account"), class: "btn btn-default form-submit" %>
+        <% end %>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,4291 @@
+.table-width100 {
+    width: 100%
+}
+
+#edit-pass {
+    width: 70%;
+}
+
+#edit-name {
+    width: 70%;
+}
+
+.table-boder {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#table-boder {
+    width: 1022px;
+}
+
+.div-boder {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+
+.img1 {
+    width: 150;
+    height: 85;
+}
+
+.img-icon {
+    width: 29;
+    height: 29;
+}
+
+@media only screen and (max-width: 1020px) {
+    .logo-bottom-rev {
+        position: absolute;
+        z-index: 100;
+        margin-top: -5px;
+        margin-left: 739px;
+        left: 6px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .logo-bottom-rev {
+        position: absolute;
+        z-index: 100;
+        margin-top: -5px;
+        margin-left: 734px;
+        left: 6px;
+    }
+}
+
+.bx-wrapper {
+    position: relative;
+    padding: 0;
+    *zoom: 1;
+    margin-left: 29px;
+    width: 927px;
+    margin-top: 33px;
+}
+
+.bx-wrapper img {
+    display: block;
+}
+
+.bx-wrapper .bx-viewport {} .bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url('http://www.harvard.com/images/home_rev/bx_loader.gif');
+}
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+
+.bx-wrapper .bx-prev {
+    width: 30px;
+    height: 64px;
+    background: url('http://www.harvard.com/images/home_rev/arrow-left-blk.png') center center no-repeat;
+    position: absolute;
+    top: 52px;
+    left: -29px;
+}
+
+.bx-wrapper .bx-prev:hover {
+    cursor: pointer;
+    background: url('http://www.harvard.com/images/home_rev/arrow-left-red.png') center center no-repeat;
+}
+
+.bx-wrapper .bx-next {
+    width: 30px;
+    height: 64px;
+    background: url('http://www.harvard.com/images/home_rev/arrow-right-blk.png') center center no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 52px;
+    right: -31px;
+}
+
+.bx-wrapper .bx-next:hover {
+    cursor: pointer;
+    background: url('http://www.harvard.com/images/home_rev/arrow-right-red.png') center center no-repeat;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    text-indent: -9999px;
+    z-index: 500;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    background: url(images/controls.png) -86px -11px no-repeat;
+    margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    background: url(images/controls.png) -86px -44px no-repeat;
+    margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666\9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px;
+}
+
+.home-slider {
+    width: 1010px;
+    height: 310px;
+    margin: auto;
+    background: url('http://www.harvard.com/images/home_rev/main_slider-bg_rev.jpg') center 0 no-repeat;
+    margin-bottom: 50px;
+    border-top: 0px solid #231F20;
+}
+
+.home-login {
+    width: 1010px;
+    height: 310px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 5px solid #231F20;
+    background-color: #f5f5f5;
+}
+
+.tri-box-teaser {
+    width: 1010px;
+    margin: auto;
+    border-top: 1px solid #bfbfbf;
+    margin-bottom: 28px;
+}
+
+.tri-box-1,
+.tri-box-2,
+.tri-box-3,
+.tri-box-4,
+.tri-box-5,
+.tri-box-6,
+.tri-box-7,
+.tri-box-8,
+.tri-box-9 {
+    width: 318px;
+    height: 256px;
+    float: left;
+    background: url('http://www.harvard.com/images/home_rev/tri-box-bg.png') 0px 0px no-repeat;
+    margin-top: 14px;
+}
+
+.tri-box-1,
+.tri-box-4,
+.tri-box-7,
+.tri-box-10 {
+    margin-left: -5px;
+}
+
+.tri-box-2,
+.tri-box-5,
+.tri-box-8,
+.tri-box-11 {
+    margin-left: 30px;
+}
+
+.tri-box-3,
+.tri-box-6,
+.tri-box-9,
+.tri-box-12 {
+    margin-left: 30px;
+}
+
+.tri-box-4,
+.tri-box-5,
+.tri-box-6,
+.tri-box-7,
+.tri-box-8,
+.tri-box-9 {
+    margin-top: 15px;
+}
+
+.tri-image {
+    position: relative;
+    top: 5px;
+    left: 8px;
+    width: 304px;
+    height: 246px;
+    overflow: hidden;
+}
+
+.new-arrival-slider {
+    width: 1010px;
+    height: 254px;
+    margin: auto;
+    border-top: 1px solid #bfbfbf;
+    background: url('http://www.harvard.com/images/home_rev/arrivals_shelf_bg.jpg') 0px 18px no-repeat;
+    margin-bottom: 26px;
+}
+
+#arrival-slide-wrap {
+    width: 930px;
+    height: 198px;
+    position: relative;
+    top: 4px;
+    left: 12px;
+}
+
+.arrival-slide-wrap {
+    width: 930px;
+    height: 198px;
+    position: relative;
+    top: 4px;
+    left: 12px;
+}
+
+.featured-slider {
+    width: 1010px;
+    height: 355px;
+    margin: auto;
+    border-top: 1px solid #bfbfbf;
+    background: url('http://www.harvard.com/images/home_rev/featured_shelf_bg.jpg') 0px 18px no-repeat;
+    margin-top: 48px;
+}
+
+.home-headline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    margin-top: -13px;
+}
+
+.home-headline span {
+    background-color: #231F20;
+    padding: 5px 22px;
+}
+
+.home-intro {
+    width: 330px;
+    height: 150px;
+    float: right;
+    margin: 52px 22px 0 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #fff;
+    line-height: 1.4em;
+}
+
+.home-intro span {
+    color: #ed2939;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.feature-box-wrap-1,
+.feature-box-wrap-2,
+.feature-box-wrap-3 {
+    width: 290px;
+    height: 262px;
+    float: left;
+    margin-top: 24px;
+}
+
+.feature-box-wrap-1 {
+    margin-left: 10px;
+}
+
+.feature-box-wrap-2 {
+    margin-left: 61px;
+}
+
+.feature-box-wrap-3 {
+    margin-left: 61px;
+}
+
+.prevleft-Feature {
+    width: 30px;
+    height: 64px;
+    background: url('http://www.harvard.com/images/home_rev/arrow-left-blk.png') center center no-repeat;
+    float: left;
+    position: relative;
+    top: 119px;
+    left: 2px;
+}
+
+.prevleft-Feature:hover {
+    cursor: pointer;
+    background: url('http://www.harvard.com/images/home_rev/arrow-left-red.png') center center no-repeat;
+}
+
+.nextright-Feature {
+    width: 30px;
+    height: 64px;
+    background: url('http://www.harvard.com/images/home_rev/arrow-right-blk.png') center center no-repeat;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 119px;
+    right: 2px;
+}
+
+.nextright-Feature:hover {
+    cursor: pointer;
+    background: url('http://www.harvard.com/images/home_rev/arrow-right-red.png') center center no-repeat;
+}
+
+ul.feature-slide-wrap {
+    width: 230px;
+    height: 262px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+ul.feature-slide-wrap li {
+    list-style-type: none;
+}
+
+ul.slides {
+    margin: 0;
+    padding: 0;
+}
+
+.pager {
+    width: 600px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 7px;
+    display: inline;
+    float: left;
+    text-align: center
+}
+
+.pager a {
+    width: 18px;
+    height: 18px;
+    padding: 10px 10px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    background: url('http://www.harvard.com/images/home_rev/pager-button.png') center center no-repeat;
+}
+
+.pager a.activeSlide {
+    background: url('http://www.harvard.com/images/home_rev/pager-active.png') center center no-repeat;
+}
+
+.top-outer-wrap {
+    width: 600px;
+    height: 250px;
+    float: left;
+    clear: both;
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
+.prevleft-Home {
+    width: 30px;
+    height: 64px;
+    background: url('http://www.harvard.com/images/home_rev/arrow-left-blk.png') center center no-repeat;
+    float: left;
+    position: relative;
+    top: 94px;
+    left: -2px;
+}
+
+.prevleft-Home:hover {
+    cursor: pointer;
+    background: url('http://www.harvard.com/images/home_rev/arrow-left-red.png') center center no-repeat;
+}
+
+.nextright-Home {
+    width: 30px;
+    height: 64px;
+    background: url('http://www.harvard.com/images/home_rev/arrow-right-blk.png') center center no-repeat;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 93px;
+    right: 7px;
+}
+
+.nextright-Home:hover {
+    cursor: pointer;
+    background: url('http://www.harvard.com/images/home_rev/arrow-right-red.png') center center no-repeat;
+}
+
+ul.top-inner-wrap {
+    width: 538px;
+    height: 245px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: -4px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.top-inner-wrap li {
+    list-style-type: none;
+}
+
+.bottom-seeAll {
+    width: 1010px;
+    height: 20px;
+    margin: auto;
+}
+
+.bottom-see-link-1,
+.bottom-see-link-2,
+.bottom-see-link-3 {
+    width: 300px;
+    float: left;
+    display: inline;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bottom-see-link-2 {
+    padding-left: 53px;
+}
+
+.bottom-see-link-3 {
+    padding-left: 54px;
+}
+
+.seeAll-featured {
+    text-align: right;
+    font-size: 12px;
+    width: 1010px;
+    height: 20px;
+    margin: auto;
+}
+
+.logo-bottom-rev {
+    position: absolute;
+    z-index: 100;
+    margin-top: -5px;
+    margin-left: 734px;
+}
+
+ul.bxslider {
+    margin: 0;
+    padding: 0;
+}
+
+li.slide-event {
+    width: 536px;
+    height: 245px;
+    background: url('http://www.harvard.com/images/home_rev/home-event_slider.png') center center no-repeat;
+}
+
+li.slide-image {
+    width: 536px;
+    height: 245px;
+    background: url('http://www.harvard.com/images/home_rev/home-event_slider.png') center center no-repeat;
+}
+
+li.slide-image img {
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+.slide-book-title,
+.slide-event-author span em {
+    font-size: 12px;
+    color: #808285;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.slide-event-author {
+    width: 256px;
+    height: 134px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 199px;
+    top: 8px;
+    overflow: hidden;
+}
+
+.slide-event-author a:hover {
+    color: #ED2939;
+}
+
+.slide-event-author span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: block;
+    padding-top: 0;
+    font-weight: normal;
+    position: relative;
+    top: -5px;
+}
+
+.slide-event-author a {
+    color: #000;
+}
+
+.slide-calendar {
+    width: 185px;
+    height: 80px;
+    position: relative;
+    left: 199px;
+    top: 10px;
+}
+
+.slide-author-img {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+
+.pic-bg {
+    width: 177px;
+    height: 222px;
+    float: left;
+    position: absolute;
+    top: 13px;
+    left: 37px;
+    background-color: #231f20;
+}
+
+.slide-ribbon {
+    width: 95px;
+    height: 95px;
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 22px;
+}
+
+.slide_bubble_date {
+    float: left;
+    min-width: 113px;
+    line-height: 17px;
+    padding-left: 8px;
+    color: #808285;
+    position: relative;
+    top: -3px;
+    left: 4px;
+}
+
+.feature-sub-title-wrap-1,
+.feature-sub-title-wrap-2,
+.feature-sub-title-wrap-3 {
+    width: 290px;
+    height: 30px;
+    float: left;
+    display: inline;
+    margin-left: 6px;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.feature-sub-title-wrap-2 {
+    margin-left: 65px;
+}
+
+.feature-sub-title-wrap-3 {
+    margin-left: 60px;
+}
+
+.feature-sub-title-wrap-1 span,
+.feature-sub-title-wrap-2 span,
+.feature-sub-title-wrap-3 span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: #231F20;
+    padding: 5px 22px;
+    color: #fff;
+}
+
+ul.feature-slide-wrap li {
+    bottom: 0px;
+}
+
+body {
+    background: #161516;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: #ED2939;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img,
+a img {
+    border: none;
+}
+
+img {
+    behavior: url('http://www.harvard.com/styles/iepngfix.php')
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.white {
+    color: #fff;
+}
+
+.pink {
+    color: #ED2939
+}
+
+form {
+    margin: 0;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 25px 10px 25px;
+    margin: 0;
+}
+
+h1.top_padding {
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    line-height: 28px;
+}
+
+h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #ED2939;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 12px 0;
+    color: #000;
+}
+
+.black_block h4 {
+    color: #fff;
+}
+
+.used_books_block h4 {
+    padding-bottom: 0;
+}
+
+.no_top_border {
+    border-top: none;
+}
+
+.page {
+    background: #fff url('http://www.harvard.com/images/page_bg.gif') repeat-x top;
+    padding-bottom: 50px;
+}
+
+.header {
+    width: 1010px;
+    margin: 0 auto;
+    padding: 12px 0 0 0;
+}
+
+.wrapper {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.search {
+    float: left;
+    height: 48px;
+    width: 516px;
+    background: #fac9cd url('http://www.harvard.com/images/search_bg.gif');
+}
+
+.header_right {
+    float: right;
+}
+
+.header_right ul {
+    float: right;
+}
+
+.block ul {
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+    line-height: 18px;
+}
+
+ul.header_buttons {
+    margin: 0;
+    padding: 9px 0 0 0;
+    list-style: none;
+}
+
+ul.header_buttons li {
+    float: left;
+    display: inline;
+}
+
+ul.header_buttons li a {
+    display: block;
+    padding: 10px 0 0 0;
+    height: 20px;
+    background: #fff;
+    color: #808285;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.header_buttons li a:hover {
+    background-color: #dcddde;
+}
+
+.search ul.header_buttons li a {
+    color: #ED2939;
+}
+
+.search ul.header_buttons li a:hover {
+    color: #fff;
+    background: #ED2939;
+}
+
+ul.header_buttons li a.advanced_button {
+    width: 71px;
+}
+
+ul.header_buttons li a.account_button {
+    width: 100px;
+}
+
+ul.header_buttons li a.my_account_button {
+    width: 90px;
+}
+
+ul.header_buttons li a.logout_button {
+    width: 70px;
+    margin-left: 13px;
+}
+
+ul.header_buttons li a.cart_button,
+ul.header_buttons li a.cart_button:hover {
+    margin-right: 13px;
+    width: 101px;
+}
+
+ul.header_buttons li.search_form {
+    margin: 0 13px 0 11px;
+}
+
+ul.header_buttons li a.recently_viewed_clear_button {
+    width: 80px;
+}
+
+.search_input_div {
+    width: 360px;
+    height: 23px;
+    padding: 7px 10px 0 10px;
+    background: #fff;
+}
+
+ul.header_buttons li.search_form input.search_input,
+.ondemand_input {
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ED2939;
+    outline: none;
+    width: 340px;
+}
+
+ul.header_buttons li.search_form input.search_button {} #advanced_search {
+    background: #ED2939;
+    color: #fff;
+    display: none;
+}
+
+#advanced_search .wrapper {
+    background: url('http://www.harvard.com/images/advanced_search_bg.gif') no-repeat 12px top;
+    padding: 15px 0;
+}
+
+.advanced_divider {
+    border-left: 1px solid #f16063;
+    padding: 14px 20px 0 20px;
+    float: left;
+    height: 51px;
+}
+
+.advanced_divider_first {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+#advanced_search h2 {
+    color: #fff;
+    font-weight: normal;
+}
+
+#advanced_search label,
+.results_advanced_search label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#advanced_event_date,
+#results_advanced_event_date {
+    display: none;
+}
+
+#advanced_book_category,
+#advanced_toggling_divider,
+#results_advanced_book_category,
+#results_advanced_toggling_divider {
+    display: none;
+}
+
+#navbar .logo {
+    float: right;
+    margin-top: 12px;
+}
+
+.content {
+    width: 1022px;
+    margin: auto;
+    background: url('http://www.harvard.com/images/content_bg.gif') repeat-y;
+}
+
+.content_columns {
+    background: url('http://www.harvard.com/images/content_columns_bg.gif') repeat-y;
+}
+
+.content_home {
+    background: url('http://www.harvard.com/images/home_content_bg.gif') no-repeat;
+    height: 541px;
+}
+
+.home_flash {
+    padding: 5px 0 0;
+    margin: 0 auto;
+    width: 1010px;
+    outline: none;
+}
+
+.home_flash_firefox {
+    margin: 0;
+    padding-left: 5px;
+    width: 1011px;
+}
+
+#flashcontent,
+object {
+    outline: none;
+    -moz-outline-style: none;
+}
+
+a:focus,
+object:focus,
+:focus {
+    outline: none;
+    -moz-outline-style: none;
+}
+
+.content_hbs_channel {
+    background: url('http://www.harvard.com/images/content_hbs_channel_bg.gif') repeat-y;
+}
+
+.main_bottom_buffer {
+    background: url('http://www.harvard.com/images/main_buffer_bg.gif') no-repeat 216px bottom;
+    padding-bottom: 26px;
+}
+
+.content_hbs_channel .main_bottom_buffer {
+    background: url('http://www.harvard.com/images/main_buffer_bg_black.gif') no-repeat 316px bottom;
+}
+
+.sidebar {
+    float: left;
+    width: 210px;
+    padding-left: 6px;
+}
+
+.wide_sidebar {
+    width: 310px;
+}
+
+.sidebar_title,
+.sidebar_sub_title {
+    height: 77px;
+    background: #a6a6a6 url('http://www.harvard.com/images/sidebar_title_bg.jpg') no-repeat top left;
+    padding: 15px 10px 7px 10px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.wide_sidebar .sidebar_title,
+.wide_sidebar .sidebar_sub_title {
+    background-image: url('http://www.harvard.com/images/wide_sidebar_title_bg.jpg');
+}
+
+.sidebar_title_with_ribbon {
+    padding: 0;
+    height: 99px;
+}
+
+.sidebar_title_line_only {
+    height: 5px;
+    padding: 0;
+}
+
+.sidebar_title td,
+.sidebar_sub_title td {
+    vertical-align: bottom;
+}
+
+.sidebar_sub_title {
+    padding-top: 9px;
+    background-position: 0 -6px;
+}
+
+.sidebar_nav,
+.sidebar_calendar,
+.recently_viewed {
+    padding: 17px 6px;
+    background: #fff url('http://www.harvard.com/images/sidebar_white_bg.jpg') repeat-y top right;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.sidebar_nav {
+    padding: 25px 6px;
+}
+
+.sidebar_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar_nav ul li {
+    padding: 1px 0;
+}
+
+.sidebar_nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 1px 4px;
+    line-height: 16px;
+    width: auto;
+    display: inline-block;
+}
+
+.sidebar_nav ul li a:hover .upcoming_date {
+    background: #ED2939;
+    color: #000;
+}
+
+.sidebar_nav ul li a:hover,
+.sidebar_nav ul li.here a {
+    background: #ED2939;
+    color: #fff;
+}
+
+.fixed_height_nav {
+    max-height: 450px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.main {
+    float: right;
+    width: 806px;
+}
+
+.hbs_channel_main {
+    width: 706px;
+}
+
+.main_title {
+    height: 99px;
+    background: #a6a6a6 url('http://www.harvard.com/images/main_title_bg_mini.jpg') no-repeat top left;
+}
+
+.main_title_bg_logo {
+    height: 99px;
+    background: #a6a6a6 url('http://www.harvard.com/images/main_title_book_bg_with_logo.jpg') no-repeat top left;
+}
+
+.main_title_bg_logo_tall {
+    height: 262px;
+    background: #a6a6a6 url('http://www.harvard.com/images/main_title_book_bg_with_logo.jpg') no-repeat top left;
+}
+
+.main_title_with_about {
+    height: 114px;
+}
+
+.main_sub_title {
+    float: left;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+.main_sub_title_middle {
+    background: url('http://www.harvard.com/images/main_sub_title_bg.png') repeat-x;
+    padding: 8px 25px 0 25px;
+    height: 37px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.main_sub_title_ondemand {} .main_sub_title_ondemand_middle {
+    padding: 11px 14px 0px 14px;
+    height: 54px;
+    background: url('http://www.harvard.com/images/search_form_bg.png');
+}
+
+.ondemand_input_div {
+    width: 280px;
+    height: 28px;
+    padding: 8px 10px 0 10px;
+    background: #fff;
+}
+
+.ondemand_input {
+    font-size: 16px;
+    width: 250px;
+}
+
+.logo_bottom {
+    float: right;
+    padding-right: 27px;
+}
+
+.main_buffer {
+    padding-top: 11px;
+    background: #fff;
+    width: 800px;
+}
+
+.hbs_channel_main .main_buffer {
+    background: #202020;
+    width: 700px;
+}
+
+.main_buffer_20 {
+    padding-top: 20px;
+    background: #fff;
+    width: 800px;
+}
+
+.main_buffer_left_column {
+    padding-top: 11px;
+    background: #fff;
+    width: 563px;
+}
+
+.content_bottom_shadow {
+    width: 1022px;
+    height: 6px;
+    margin: auto;
+    background: url('http://www.harvard.com/images/content_bottom_shadow_bg.gif') no-repeat;
+}
+
+.content_bottom_shadow_hbs_channel {
+    background-image: url('http://www.harvard.com/images/content_bottom_shadow_hbs_channel_bg.gif');
+}
+
+.footer {
+    width: 1010px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    font-size: 12px;
+    line-height: 18px;
+    color: #808285;
+}
+
+.footer strong {
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.footer .social_icons img {
+    margin-right: 5px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0 0 20px 0;
+    list-style: none;
+}
+
+.footer ul.no_bottom_padding {
+    padding-bottom: 0;
+}
+
+.footer form.mailing_list_form {
+    padding: 3px 0 27px 0;
+}
+
+.footer input.mailing_list_input,
+input.mailing_list_input {
+    width: 180px;
+    height: 22px;
+    border: none;
+    padding: 0;
+    font-size: 12px;
+    padding: 8px 10px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .copyright {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.footer .left_padding {
+    padding-left: 10px;
+}
+
+.footer a {
+    color: #808285;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .column_1 {
+    float: left;
+    width: 150px;
+}
+
+.footer .column_2 {
+    float: left;
+    margin-left: 60px;
+    width: 190px;
+    margin-top: 20px;
+}
+
+.footer .column_3 {
+    float: left;
+    margin-left: 40px;
+    width: 265px;
+    margin-top: 20px;
+}
+
+.footer .column_4 {
+    float: left;
+    border-left: 1px solid #4d4d4f;
+    padding-left: 34px;
+    width: 140px;
+    margin-top: 20px;
+}
+
+.footer .column_5 {
+    float: left;
+    margin-left: 20px;
+    width: 110px;
+    margin-top: 20px;
+}
+
+.main_wrapper {
+    width: 800px;
+    background: #fff;
+    padding-bottom: 11px;
+}
+
+.hbs_channel_main .main_wrapper {
+    width: 700px;
+    background: #202020;
+}
+
+.main_wrapper_columns {
+    padding-bottom: 0;
+    background: transparent;
+}
+
+.main_columns {
+    background: url('http://www.harvard.com/images/main_columns_bg.gif') repeat-y 563px 0;
+    padding-right: 12px;
+}
+
+.main_column_left {
+    float: left;
+    width: 563px;
+    background: #fff;
+}
+
+.main_column_right {
+    float: right;
+    width: 213px;
+    border-top: 5px solid #151516;
+}
+
+.main_column_right_top_margin {
+    margin-top: 11px;
+}
+
+.black_padding {
+    background: #161516;
+    padding: 11px 12px;
+}
+
+.black_padding .caption {
+    padding: 11px 15px 0 15px;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.block {
+    margin: 0 0px;
+    background: #f5f5f5;
+    padding: 15px 15px 0 15px;
+}
+
+.block p {
+    margin: 0;
+    padding: 0 0 15px 0;
+    line-height: 18px;
+}
+
+.history_block p {
+    font-size: 14px;
+    color: #161516;
+    line-height: 22px;
+}
+
+.history_block p strong {
+    font-size: 28px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first_block {
+    border-top: none;
+    padding-top: 25px;
+}
+
+.first_block_normal_padding {
+    border-top: none;
+}
+
+.black_block {
+    background: #161516;
+    color: #fff;
+}
+
+.used_books_block {
+    line-height: 18px;
+    color: #808285;
+}
+
+.striped_block {
+    background: url('http://www.harvard.com/images/gray_diagonal_repeating.gif');
+    padding-bottom: 15px;
+}
+
+.no_padding {
+    padding: 0;
+}
+
+.tab_content {
+    display: none;
+}
+
+.tab_content_on {
+    display: block;
+}
+
+.tabs_container {
+    padding: 0 12px;
+}
+
+.tabs {
+    background: url('http://www.harvard.com/images/tabs_line_bg.gif') repeat-x 0 36px;
+}
+
+.tabs_gray {
+    background: url('http://www.harvard.com/images/tabs_line_gray_bg.gif') repeat-x 0 36px;
+}
+
+.tabs_black {
+    background: url('http://www.harvard.com/images/tabs_line_black_bg.gif') repeat-x 0 36px;
+}
+
+.tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    background: url('http://www.harvard.com/images/nav_last_bg.gif') no-repeat top right;
+}
+
+.tabs ul li {
+    display: inline;
+    float: left;
+}
+
+.tabs ul li a {
+    display: block;
+    height: 30px;
+    padding: 14px 16px 0 16px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    background: url('http://www.harvard.com/images/tab_bg.gif') no-repeat 0 -44px;
+    outline: none;
+}
+
+.tabs ul li a:hover,
+.tabs ul li.here a {
+    background-position: 0 0;
+}
+
+.tabs ul li a span {
+    color: #808285;
+}
+
+.greenman_top {
+    float: right;
+    padding-right: 12px;
+    padding-top: 20px;
+    line-height: 12px;
+}
+
+.greenman_bottom {
+    background-image: url('http://www.harvard.com/images/greenman_bottom.gif');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.greenman_buffer {
+    float: right;
+    width: 160px;
+    height: 149px;
+    padding: 0 0 15px 15px;
+}
+
+.content_shelves {
+    background: url('http://www.harvard.com/images/Shelf_RepeatingBottom_mini.jpg') 216px 0 repeat-y;
+}
+
+.shelves {
+    background: url('http://www.harvard.com/images/shelves_bg.jpg');
+    width: 800px;
+}
+
+.shelves_loading {
+    height: 430px;
+    text-align: center;
+    font-style: italic;
+}
+
+.loading {
+    padding: 20px;
+    font-style: italic;
+}
+
+ul.books {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+}
+
+ul.books li {
+    width: 156px;
+    height: 199px;
+    padding-bottom: 16px;
+    text-align: center;
+    float: left;
+}
+
+ul.books li.list {
+    width: 800px;
+    height: 215px;
+    padding: 0;
+    text-align: left;
+}
+
+.book_td {
+    vertical-align: bottom;
+    height: 199px;
+    width: 160px;
+    text-align: center;
+}
+
+.infobox_container {
+    display: none;
+    position: absolute;
+    margin-left: -270px;
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.infobox {
+    background: url('http://www.harvard.com/images/infobox_bg.png') no-repeat;
+    width: 274px;
+    padding: 4px 12px 5px 5px;
+    text-align: left;
+}
+
+.infobox_bottom {
+    height: 15px;
+    width: 291px;
+    background: url('http://www.harvard.com/images/infobox_bottom.png') no-repeat;
+}
+
+.infobox_interior {
+    padding: 17px 14px 0 14px;
+}
+
+.info_ribbon_20off {
+    background: url('http://www.harvard.com/images/bookribbons/20off_rt.png') no-repeat top right;
+}
+
+.info_ribbon_bargain {
+    background: url('http://www.harvard.com/images/bookribbons/bargain_rt.png') no-repeat top right;
+}
+
+.info_ribbon_kids {
+    background: url('http://www.harvard.com/images/bookribbons/kids_rt.png') no-repeat top right;
+}
+
+.info_ribbon_new {
+    background: url('http://www.harvard.com/images/bookribbons/new_rt.png') no-repeat top right;
+}
+
+.info_ribbon_pod {
+    background: url('http://www.harvard.com/images/bookribbons/pod_rt.png') no-repeat top right;
+}
+
+.info_ribbon_signed {
+    background: url('http://www.harvard.com/images/bookribbons/signed_rt.png') no-repeat top right;
+}
+
+.infobox h2 {
+    width: 200px;
+}
+
+.infobox .author,
+.author {
+    padding: 10px 0;
+    color: #808285;
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #c5c5c5;
+    margin-bottom: 10px;
+}
+
+.book_shadow_left {
+    background: url('http://www.harvard.com/images/book_shadow_left.png');
+    width: 9px;
+}
+
+.book_shadow_right {
+    background: url('http://www.harvard.com/images/book_shadow_right.png');
+    width: 9px;
+}
+
+.book_shadow_leftcorner {
+    background: url('http://www.harvard.com/images/book_shadow_leftcorner.png');
+    width: 9px;
+    height: 9px;
+}
+
+.book_shadow_rightcorner {
+    background: url('http://www.harvard.com/images/book_shadow_rightcorner.png');
+    width: 9px;
+    height: 9px;
+}
+
+.book_shadow_top {
+    background: url('http://www.harvard.com/images/book_shadow_top.png');
+    height: 9px;
+}
+
+.shelves_pagination_shadow {
+    width: 800px;
+    height: 6px;
+    background: url('http://www.harvard.com/images/Shelf_Pagination_Shadow.jpg');
+    margin-bottom: 12px;
+}
+
+.shelves_pagination {
+    clear: both;
+    width: 728px;
+    height: 53px;
+    background: url('http://www.harvard.com/images/Shelf_Pagination2-1.jpg');
+    padding: 53px 35px 0 37px;
+}
+
+.events_pagination {
+    background: #fff;
+}
+
+.shelves_pagination .total_results {
+    float: left;
+}
+
+.bubble_total_large_middle {
+    background: url('http://www.harvard.com/images/bubble_total_large_middle.png') repeat-x;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 24px;
+    padding: 12px 2px 0 2px;
+}
+
+.shelves_pagination ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+
+.shelves_pagination ul li {
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: inline;
+    float: left;
+    margin-left: 0;
+}
+
+.shelves_pagination ul li a {
+    display: block;
+    background: url('http://www.harvard.com/images/Pagination_regular.png');
+    color: #fff;
+    padding: 12px 0 0 0;
+    height: 21px;
+    text-decoration: none;
+    width: 36px;
+    text-align: center;
+}
+
+.shelves_pagination ul li a:hover {
+    color: #000;
+    color: #fff;
+    background: url('http://www.harvard.com/images/Pagination_hover.png');
+}
+
+.shelves_pagination ul li a.current,
+.shelves_pagination ul li a.current:hover {
+    color: #000;
+    font-weight: bold;
+    background: url('http://www.harvard.com/images/Pagination_on.png');
+}
+
+.shelves_pagination ul li.first a,
+.shelves_pagination ul li.last a {
+    width: 56px;
+    text-transform: uppercase;
+    background: url('http://www.harvard.com/images/Pagination_regular_large.png');
+}
+
+.shelves_pagination ul li.first a.current,
+.shelves_pagination ul li.last a.current {
+    background: url('http://www.harvard.com/images/Pagination_on_large.png');
+}
+
+.shelves_pagination ul li.first a:hover,
+.shelves_pagination ul li.last a:hover {
+    background: url('http://www.harvard.com/images/Pagination_hover_large.png');
+}
+
+.shelves_pagination ul li.nextprev a {
+    font-size: 16px;
+    padding-top: 8px;
+    height: 25px;
+}
+
+table.shelf_params tr td {
+    padding-right: 5px;
+}
+
+table.shelf_params tr td table tr td {
+    padding-right: 0;
+}
+
+.shelf_select {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total_results_top {
+    padding-left: 3px;
+}
+
+.bubble_total_small_middle {
+    background: url('http://www.harvard.com/images/bubble_total_small_middle.png') repeat-x;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 19px;
+    padding: 4px 4px 0 4px;
+}
+
+.label {
+    background: #a7a9ac url('http://www.harvard.com/images/label_bg.gif') repeat-x;
+    height: 20px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.label_left {
+    background: url('http://www.harvard.com/images/label_bg_left.gif') no-repeat left;
+    height: 20px;
+}
+
+.label_right {
+    background: url('http://www.harvard.com/images/label_bg_right.gif') no-repeat right;
+    height: 20px;
+    padding: 0 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.label label {
+    padding: 0 3px 0 3px;
+}
+
+.bookend {
+    background: url('http://www.harvard.com/images/BookShelf_Divider.png') no-repeat;
+    width: 143px;
+    height: 156px;
+    color: #fff;
+    font: 20px/24px 'Times New Roman', Times, serif;
+    margin: 43px 0 0 9px;
+}
+
+.bookend table tr td {
+    height: 156px;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.bookend table tr td div {
+    padding-bottom: 7px;
+    padding-left: 18px;
+    width: 102px;
+    overflow: hidden;
+}
+
+.top_100_ribbon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.award_overlay {
+    background: rgb(237, 41, 57);
+    background: rgba(237, 41, 57, 0.85);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.award_overlay div {
+    padding: 20px 8px 6px 8px;
+}
+
+.overlay_container {
+    position: relative;
+    z-index: 5;
+    width: 100px;
+}
+
+.sidebar_nav ul li.staff_recommended_category_link {
+    padding: 2px 0;
+}
+
+.sidebar_nav ul li.staff_recommended_category_link a {
+    display: block;
+    line-height: 16px;
+}
+
+.sidebar_nav ul li.staff_recommended_category_link a .gray {
+    color: #808285;
+}
+
+.sidebar_nav ul li.staff_recommended_category_link a:hover .gray,
+.sidebar_nav ul li.here a .gray {
+    color: #fff;
+}
+
+.staff_recommended_category_link img {
+    float: left;
+    margin: 2px 8px 2px 0;
+}
+
+ul.books_list_ul {
+    padding: 0;
+}
+
+.book_list_left {
+    width: 210px;
+    height: 215px;
+    float: left;
+}
+
+.book_list_left .book_td {
+    width: 210px;
+}
+
+.book_list_right {
+    float: right;
+    width: 590px;
+    background: #fff;
+    height: 215px;
+}
+
+.book_list_info {
+    padding: 28px 12px 28px 28px;
+    height: 143px;
+}
+
+.book_list_info .author {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.book_list_info_left {
+    float: left;
+    width: 255px;
+}
+
+.book_list_info_right {
+    float: right;
+    width: 280px;
+}
+
+.book_list_buffer {
+    height: 16px;
+    background: url('http://www.harvard.com/images/gray_diagonal_repeating.gif');
+    width: 578px;
+}
+
+.featured_sidebar_ribbon,
+.best_sellers_sidebar_ribbon {
+    padding: 15px 10px 7px 10px;
+    height: 77px;
+    background: url('http://www.harvard.com/images/bookribbons/20off_lrg.png') no-repeat right 5px;
+}
+
+.enjoy_sidebar_ribbon {
+    padding: 15px 10px 7px 10px;
+    height: 77px;
+    background: url('http://www.harvard.com/images/eventribbons/enjoy.png') no-repeat right 5px;
+}
+
+.kids_main_title_bg {
+    background: url('http://www.harvard.com/images/Kids_clown_top.png') no-repeat 478px 21px;
+    height: 99px;
+}
+
+.staff_main_title_bg {
+    background: url('http://www.harvard.com/images/staff_image_wire.png') no-repeat 610px 69px;
+    height: 114px;
+}
+
+a.text_cover {
+    display: block;
+    padding: 10px 11px;
+    width: 78px;
+    height: 128px;
+    background: #161516;
+    color: #fff;
+    overflow: hidden;
+}
+
+a.text_cover_small {
+    width: 65px;
+    height: 90px;
+}
+
+.text_cover_large {
+    display: block;
+    padding: 15px;
+    width: 135px;
+    height: 215px;
+    background: #161516;
+    color: #fff;
+    overflow: hidden;
+}
+
+.text_cover_title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.text_cover_large .text_cover_title {
+    font-size: 18px;
+}
+
+.text_cover_author {
+    color: #808285;
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+.text_cover_large .text_cover_author {
+    font-size: 14px;
+}
+
+img.cover_shelves {
+    max-width: 130px;
+    max-height: 180px;
+}
+
+img.cover_event_listing {
+    max-width: 100px;
+    max-height: 120px;
+}
+
+.main_title_book {
+    height: 289px;
+    padding: 0 0 16px 0;
+    background: #a6a6a6 url('http://www.harvard.com/images/main_title_book_bg_with_logo.jpg') no-repeat top left;
+}
+
+.hbs_channel_main .main_title_book {
+    background-position: top right;
+}
+
+.book_page_image {
+    max-width: 290px;
+    max-height: 258px;
+}
+
+.book_cover_container {
+    float: left;
+}
+
+.book_back_to_shelves_container {
+    float: right;
+    padding: 0 16px 0 0;
+}
+
+.book_back_to_shelves_container td.back_to_shelves_cell {
+    height: 279px;
+    vertical-align: bottom;
+}
+
+td.book_cover_cell {
+    height: 289px;
+    vertical-align: bottom;
+    padding-left: 16px;
+}
+
+td.book_bubbles_cell {
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.ebook {
+    margin: 0px 0 0 0;
+    padding: 5px 0 0 0;
+}
+
+.book_bubble_ebook {
+    background: url('http://www.harvard.com/images/Bubble_BookPage.png') no-repeat top left;
+    width: 290px;
+    height: 48px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.book_bubble_ebook_text {
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 35px;
+}
+
+.book_bubble_ebook .right {
+    text-align: right;
+    margin-right: 18px;
+    margin-top: 7px;
+}
+
+.ebook .right {
+    text-align: right;
+}
+
+.ebook_left_text {
+    float: left;
+    padding-left: 28px;
+    padding-top: 12px;
+    width: 80px;
+}
+
+.book_list_info .ebook_list_text {
+    float: left;
+    width: 80px;
+    padding: 6px 0 0 0;
+}
+
+.ebook_list_text {
+    float: left;
+    width: 80px;
+    padding: 1px 0 0 0;
+}
+
+.book_page_bubble_shipping {
+    background: url('http://www.harvard.com/images/Bubble_shipping.png') no-repeat top left;
+    width: 185px;
+    height: 46px;
+    font: 13px 'Times New Roman', Times, serif;
+    color: #fff;
+    padding: 12px 0 0 23px;
+}
+
+.book_page_bubble_shipping a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.book_page_bubble_info {
+    background: url('http://www.harvard.com/images/Bubble_BookPage.png') no-repeat top left;
+    width: 290px;
+    height: 134px;
+    margin-top: 4px;
+}
+
+.book_page_bubble_info .right {
+    text-align: right;
+}
+
+.book_page_bubble_info_ribbon {
+    padding: 17px 18px 0 26px;
+}
+
+.book_page_ribbon_20off {
+    background: url('http://www.harvard.com/images/bookribbons/20off_lft.png') no-repeat 12px 4px;
+}
+
+.book_page_ribbon_bargain {
+    background: url('http://www.harvard.com/images/bookribbons/bargain_lft.png') no-repeat 12px 4px;
+}
+
+.book_page_ribbon_kids {
+    background: url('http://www.harvard.com/images/bookribbons/kids_lft.png') no-repeat 12px 4px;
+}
+
+.book_page_ribbon_new {
+    background: url('http://www.harvard.com/images/bookribbons/new_lft.png') no-repeat 12px 4px;
+}
+
+.book_page_ribbon_pod {
+    background: url('http://www.harvard.com/images/bookribbons/pod_lft.png') no-repeat 12px 4px;
+}
+
+.book_page_ribbon_signed {
+    background: url('http://www.harvard.com/images/bookribbons/signed_lft.png') no-repeat 12px 4px;
+}
+
+.inscription {
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 3px;
+}
+
+.price {
+    color: #ED2939;
+    text-align: right;
+    padding-right: 3px;
+}
+
+.listprice {
+    text-align: right;
+    padding-right: 3px;
+}
+
+.stock_and_format {
+    margin-top: 8px;
+    text-align: right;
+    padding-right: 3px;
+    padding-top: 9px;
+    line-height: 18px;
+}
+
+.book_page_bubble_info .stock_and_format {
+    margin-top: 5px;
+}
+
+.book_list_info .stock_and_format {
+    line-height: 18px;
+    margin-top: 9px;
+}
+
+.infobox .stock_and_format {
+    line-height: 18px;
+    margin-top: 9px;
+}
+
+.add_to_cart {
+    margin-top: 3px;
+}
+
+.book_list_info .add_to_cart,
+.book_list_info .wishlist_button_container {
+    margin-top: 4px;
+    padding-right: 2px;
+}
+
+.product_info .add_to_cart,
+.product_info .wishlist_button_container {
+    margin-top: 23px;
+}
+
+.infobox .add_to_cart {
+    margin-top: 4px;
+}
+
+.book_page_byline {
+    padding: 0 25px 29px 25px;
+    color: #808285;
+    font-size: 14px;
+}
+
+h1.book_title {
+    width: 450px;
+}
+
+.viewer_container {
+    padding: 0 0 15px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#viewerCanvas {
+    width: 510px;
+    height: 800px;
+    display: block;
+}
+
+.book_details_container {
+    line-height: 18px;
+    padding-bottom: 15px;
+}
+
+.book_details_container span {
+    color: #808285;
+}
+
+.book_details_left {
+    padding: 0 20px 0 0;
+    border-right: 1px solid #ccc;
+    float: left;
+    max-width: 315px;
+}
+
+.book_details_right {
+    padding: 0 20px 0 20px;
+    float: left;
+}
+
+.book_staff_review_name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.book_no_results {
+    text-align: center;
+    font-style: italic;
+}
+
+.customer_review_stars img {
+    margin-right: 3px;
+}
+
+.upcoming_date {
+    color: #808285;
+    font-size: 85%;
+}
+
+.event {
+    margin: 15px 0 0 0;
+    background: #fff no-repeat top right;
+    padding: 0 12px;
+}
+
+.events_loading {
+    height: 860px;
+}
+
+#events_container {
+    width: 800px;
+}
+
+.event_page_ribbon {
+    float: right;
+    margin-top: -20px;
+}
+
+.event_ribbon_free {
+    background-image: url('http://www.harvard.com/images/eventribbons/free.png');
+}
+
+.event_ribbon_soldout {
+    background-image: url('http://www.harvard.com/images/eventribbons/soldout.png');
+}
+
+.event_ribbon_ticketed {
+    background-image: url('http://www.harvard.com/images/eventribbons/ticketed.png');
+}
+
+.event_ribbon_sale {
+    background-image: url('http://www.harvard.com/images/eventribbons/sale.png');
+}
+
+.event_ribbon_canceled {
+    background-image: url('http://www.harvard.com/images/eventribbons/canceled.png');
+}
+
+.event_left {
+    float: left;
+    width: 325px;
+}
+
+.event_right {
+    float: right;
+    width: 426px;
+    padding: 17px 0 0 0;
+}
+
+.event_author_block {
+    background: #161516 url('http://www.harvard.com/images/Shelf_Events_list.jpg') no-repeat top right;
+    height: 285px;
+}
+
+.event_page_author_block {
+    float: left;
+    background: #161516;
+    height: 285px;
+    width: 210px;
+}
+
+.event_page_author_right {
+    float: right;
+    padding: 15px 15px 0 15px;
+    width: 295px;
+}
+
+.event_author_image {
+    padding: 10px 0 0 10px;
+    color: #808285;
+    font-size: 11px;
+    line-height: 11px;
+    float: left;
+}
+
+.event_author_image div {
+    padding-top: 9px;
+    max-width: 190px;
+}
+
+.event_listing_books {
+    float: right;
+}
+
+.event_listing_books ul.books {
+    padding: 0;
+}
+
+.event_listing_books ul.books li {
+    width: 115px;
+    height: 133px;
+    padding-bottom: 11px;
+    float: none;
+    display: block;
+}
+
+.event_listing_books ul.books li.book_2 {
+    height: 130px;
+}
+
+.event_listing_books .book_td {
+    width: 115px;
+    height: 133px;
+}
+
+.event_listing_books li.book_2 .book_td {
+    height: 130px;
+}
+
+.event_author_buffer {
+    height: 15px;
+    background: url('http://www.harvard.com/images/gray_diagonal_repeating.gif');
+}
+
+.event_right_details {
+    padding-left: 8px;
+    width: 320px;
+}
+
+.event_intro p {
+    margin: 1em 0 0 0;
+    padding: 0
+}
+
+.event_intro em {
+    font-size: 14px;
+    line-height: 20px;
+    color: #808285;
+}
+
+.event_page_intro {
+    padding: 0 25px 19px 25px;
+}
+
+.event_listing_bubble {
+    margin-top: 23px;
+    background: url('http://www.harvard.com/images/Bubble_inset_events.png') no-repeat;
+    padding: 7px 7px 7px 14px;
+}
+
+.event_date_box {
+    background: url('http://www.harvard.com/images/Date_box.png') no-repeat;
+    width: 54px;
+    height: 60px;
+}
+
+.date_box_month {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 5px;
+}
+
+.date_box_day {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+.event_listing_bubble_date {
+    margin-top: 5px;
+    float: left;
+    padding: 0 15px;
+    min-width: 113px;
+    border-right: 1px solid #ccc;
+    line-height: 17px;
+}
+
+.event_listing_bubble_location {
+    margin-top: 5px;
+    float: left;
+    padding: 0 15px;
+    width: 150px;
+    line-height: 17px;
+}
+
+.event_listing_buttons {
+    padding: 8px 19px 0 0;
+    text-align: right;
+}
+
+.event_listing_buttons a,
+a.black_button {
+    padding: 2px 4px 2px 5px;
+    background: #161516;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+.event_listing_buttons a:hover,
+a.black_button:hover {
+    background: #ED2939;
+}
+
+.event_listing_buttons a span,
+a.black_button span {
+    font-size: 14px;
+}
+
+.event_listing_buttons a span.gray,
+a.black_button span.gray {
+    font-size: 9px;
+    color: #808285;
+}
+
+.event_listing_buttons a:hover span.gray,
+a.black_button:hover span.gray {} a.gray_button,
+.event_listing_buttons a.event_listing_share {
+    background: #9b9b9b;
+}
+
+.event_note {
+    color: #ED2939;
+    padding-top: 20px;
+}
+
+.event_page_note {
+    padding: 1px 25px 23px 25px;
+}
+
+.event_label {
+    padding-bottom: 17px;
+    margin-left: -2px;
+}
+
+.event_label_middle {
+    background: url('http://www.harvard.com/images/event_label_bg.gif') repeat-x;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 22px;
+    padding: 5px 5px 0 6px;
+}
+
+.main_title_dates {
+    margin-left: 5px;
+}
+
+.main_title_dates .label a,
+.results_advanced_search .label a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.block .event_series_info p:last-of-type {
+    margin: 0;
+    padding: 0 0 0 0;
+    line-height: 18px;
+}
+
+.block .event_cosponsors_info p:last-of-type {
+    margin: 0;
+    padding: 0 0 0 0;
+    line-height: 18px;
+}
+
+.event_cosponsors_info,
+.event_series_info,
+.event_general_info {
+    background: #fff;
+    padding: 10px 10px 8px 10px;
+    color: #808285;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.event_cosponsors_info strong,
+.event_series_info strong {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.event_cosponsors_info img {
+    margin-top: 10px;
+}
+
+.book_leave_a_review {
+    color: #000;
+}
+
+.event_general_info strong {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book_leave_a_review strong {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.sidebar_calendar {
+    padding-right: 0;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-bottom: 13px;
+}
+
+.calendar_header {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.sidebar_calendar table {
+    margin-left: 3px;
+}
+
+.calendar_month {
+    font-size: 24px;
+}
+
+.calendar_month a {
+    color: #000;
+}
+
+.calendar_month a:hover {
+    color: #ED2939;
+}
+
+.calendar_year {
+    float: left;
+    font-size: 12px;
+}
+
+.calendar_nav {
+    float: right;
+    padding-right: 18px;
+}
+
+.calendar_nav_right {
+    border-left: 1px solid #c8c8c8;
+    padding-left: 6px;
+}
+
+.calendar_nav_left {
+    padding-right: 6px;
+}
+
+.calendarDayHeading {
+    font-size: 10px;
+    color: #939598;
+    text-align: center;
+    padding: 14px 0 6px 0;
+}
+
+.calendarCell,
+.calendarToday {
+    font: 16px 'Times New Roman', Times, serif;
+    color: #c7c8ca;
+    width: 27px;
+    height: 28px;
+    text-align: center;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+.calendarToday {
+    background: #e6e7e8;
+}
+
+.sidebar_calendar td.here {
+    background: url('http://www.harvard.com/images/Events_calendar_on.png') no-repeat;
+}
+
+.calendarCell a,
+.calendarToday a {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+
+.calendarCell a:hover,
+.calendarToday a:hover {
+    color: #ED2939;
+}
+
+.calendarBlank {
+    visibility: hidden;
+}
+
+.sidebar_calendar_buttons {
+    border-top: 1px solid #c8c8c8;
+    margin-top: 6px;
+    padding-left: 6px;
+}
+
+.sidebar_calendar_buttons div {
+    padding-top: 10px;
+}
+
+.calendar_horizontal {
+    background: #fff;
+    width: 776px;
+    padding: 0 12px;
+    z-index: 0;
+}
+
+.calendar_horizontal .calendar_nav_left {
+    border-right: 1px solid #c8c8c8;
+    padding-right: 6px;
+    margin-right: 6px;
+}
+
+.calendar_horizontal .calendar_nav_right {
+    border-left: 1px solid #c8c8c8;
+    padding-left: 6px;
+    margin-left: 6px;
+}
+
+.calendar_horizontal .daylink,
+.calendar_horizontal .emptyday {
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.calendar_horiztonal .daylink {
+    width: 28px;
+}
+
+.calendar_horizontal .daylink a {
+    color: #000;
+    text-decoration: none;
+}
+
+.calendar_horizontal .daylink a:hover {
+    color: #ED2939;
+}
+
+.calendar_horizontal .emptyday {
+    background: url('http://www.harvard.com/images/tabs_line_bg.gif') 0 15px repeat-x;
+}
+
+.calendar_horizontal .here .daylink_inner_left {
+    background: url('http://www.harvard.com/images/Events_calendar_on_left.png') no-repeat top left;
+    padding-left: 3px;
+    height: 30px;
+}
+
+.calendar_horizontal .here .daylink_inner_right {
+    background: url('http://www.harvard.com/images/Events_calendar_on_right.png') no-repeat top right;
+    padding-right: 3px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.event_books {
+    padding-top: 20px;
+}
+
+.event_books .book_td,
+.event_books ul.books li {} .event_page_date_bubble {
+    background: url('http://www.harvard.com/images/Bubble_event_date.png') no-repeat 0 -5px;
+    padding: 7px 14px 0 14px;
+    height: 78px;
+    width: 178px;
+}
+
+.event_page_date_bubble .event_listing_bubble_date {
+    width: auto;
+    border: none;
+}
+
+table.event_details {
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+
+table.event_details tr td {
+    vertical-align: top;
+    line-height: 18px;
+}
+
+td.event_details_date {
+    padding-right: 15px;
+    border-right: 1px solid #bebebe;
+    width: 190px;
+}
+
+td.event_details_location {
+    padding: 0 15px;
+}
+
+td.event_details_tickets {
+    border-left: 1px solid #bebebe;
+    padding-left: 15px;
+    width: 115px;
+}
+
+table.event_details .event_date_box {
+    margin-right: 15px;
+}
+
+.event_details_text {
+    padding-top: 3px;
+}
+
+h2.event_author_name {
+    padding-bottom: 10px;
+}
+
+.gift_card {
+    padding-left: 17px;
+}
+
+.gift_card_bubble {
+    float: left;
+    padding: 40px 0 0 8px;
+}
+
+.gift_card_select {
+    padding-top: 6px;
+}
+
+.gift_card_select select {
+    font-size: 14px;
+}
+
+.gift_card_bubble .add_to_cart {
+    margin-top: 27px;
+}
+
+.kicker {
+    padding: 20px 25px 0 25px;
+    color: #808285;
+    font-size: 14px;
+}
+
+.recently_viewed ul {
+    margin: 0;
+    padding: 10px 0 0 0;
+    list-style: none;
+}
+
+.recently_viewed ul li {
+    padding: 0 0 26px 0;
+    margin-bottom: 15px;
+    background: url('http://www.harvard.com/images/recently_viewed_bottom_border.gif') repeat-x bottom;
+}
+
+.recently_viewed ul li.last {
+    background: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.recently_viewed .recently_viewed_cover {
+    float: left;
+    width: 66px;
+}
+
+.recently_viewed .recently_viewed_title {
+    float: right;
+    width: 127px;
+}
+
+.wide_sidebar .recently_viewed .recently_viewed_title {
+    padding-right: 100px;
+}
+
+.recently_viewed .recently_viewed_title a {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 110px;
+    display: block;
+}
+
+.wide_sidebar .recently_viewed .recently_viewed_title a {} .recently_viewed .recently_viewed_title a:hover {
+    color: #ED2939;
+}
+
+.recently_viewed .recently_viewed_byline {
+    color: #808285;
+    padding-top: 8px;
+}
+
+.recent_shadow {
+    background: url('http://www.harvard.com/images/recent_shadow.gif') repeat-y;
+    width: 62px;
+    text-align: center;
+}
+
+.recent_shadow_top {
+    background: url('http://www.harvard.com/images/recent_shadow_top.gif') no-repeat top left;
+    padding-top: 3px;
+}
+
+.recent_shadow_bottom {
+    background: url('http://www.harvard.com/images/recent_shadow_bottom.gif') no-repeat bottom left;
+    padding-bottom: 3px;
+}
+
+.goods_container {
+    padding: 0 12px;
+}
+
+.goods_category_header {
+    color: #808285;
+    font-size: 14px;
+    width: 500px;
+    padding: 0 15px;
+}
+
+.goods_category_header strong {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+.goods_category_header p {
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+.goods_categories ul {
+    margin: 0;
+    padding: 10px 0 0 2px;
+    list-style: none;
+}
+
+.goods_categories ul li {
+    width: 257px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-right: 1px solid #ccc;
+    display: block;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.goods_categories ul li table tr td {
+    width: 238px;
+    height: 222px;
+    padding: 0 15px;
+    vertical-align: bottom;
+}
+
+.goods_categories ul li table tr td p {
+    color: #808285;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.product_image {
+    float: left;
+    width: 475px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.product_info {
+    width: 280px;
+    float: right;
+    padding-top: 20px;
+}
+
+.product_description {
+    padding: 0;
+    color: #808285;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.product_description em {
+    color: #000;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.product_swatches {
+    padding-bottom: 0;
+}
+
+.bubble_inset {
+    margin-top: 20px;
+    width: 250px;
+    padding: 15px 15px 9px 21px;
+    background: url('http://www.harvard.com/images/bubble_inset_bg.png') no-repeat top left;
+}
+
+.book_list_info .bubble_inset {
+    margin-top: 0;
+}
+
+.product_info .bubble_inset {
+    padding-top: 13px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    width: 245px;
+}
+
+.bubble_inset_bottom {
+    height: 6px;
+    width: 280px;
+    background: url('http://www.harvard.com/images/bubble_inset_bottom.png') no-repeat top left;
+}
+
+.bubble_inset_with_ribbon {
+    padding: 0;
+    width: 286px;
+}
+
+.bubble_inset_ribbon {
+    padding: 15px 15px 9px 21px;
+    background-position: 8px 0;
+}
+
+.book_list_info .bubble_inset_ribbon {
+    padding: 14px 18px 7px 21px;
+}
+
+.bubble_inset .right {
+    text-align: right;
+}
+
+.product_options {
+    margin-top: 15px;
+    padding-bottom: 4px;
+}
+
+.product_options label {
+    display: block;
+}
+
+.product_options select {
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.indent_8px {
+    padding-left: 8px;
+}
+
+.product_swatches table tr td {
+    padding: 5px 12px 5px 0;
+}
+
+.goods_view {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    margin-left: -55px;
+}
+
+.goods_enlarge {
+    padding-top: 10px;
+}
+
+.goods_size_chart {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.form {
+    padding: 28px 28px 13px 28px;
+}
+
+.form label {
+    display: block;
+    padding-bottom: 4px;
+}
+
+.form label.no_bottom_padding {
+    padding-bottom: 0;
+}
+
+.form_header {
+    color: #808285;
+    font-size: 14px;
+    padding-bottom: 15px;
+    line-height: 14px;
+}
+
+.form_header_note {
+    font-size: 11px;
+    color: #ED2939;
+}
+
+.form table {} .form table tr td {
+    padding-bottom: 15px;
+    padding-right: 0;
+}
+
+.form table tr td.last {} .form_padding_84 {
+    padding-left: 84px;
+}
+
+.form_padding_30 {
+    padding-left: 30px;
+}
+
+.form_padding_29 {
+    padding-left: 29px;
+}
+
+.form_table_spacing {
+    padding-top: 23px;
+}
+
+.form .textarea_80 {
+    height: 65px;
+    width: 469px;
+    padding: 15px 0 0 15px;
+    background: url('http://www.harvard.com/images/Form_Field_484x80.png') no-repeat;
+}
+
+.form .textarea_80 textarea {
+    outline: none;
+    border: none;
+    padding: none;
+    background: none;
+    color: #ED2939;
+    font: 12px Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 464px;
+}
+
+.black_block a:hover {
+    color: #fff;
+}
+
+#gift_info {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.form_buffer {
+    height: 13px;
+    background: url('http://www.harvard.com/images/gray_diagonal_repeating_on_black.gif');
+}
+
+.form_submit {
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.form_field {
+    background: #fff url('http://www.harvard.com/images/Form_Field_200x24.png') no-repeat;
+    padding: 4px 0 0 8px;
+    height: 19px;
+    width: 192px;
+}
+
+.form_field input {
+    outline: none;
+    border: none;
+    padding: none;
+    background: none;
+    color: #ED2939;
+    font: 12px Arial, Helvetica, sans-serif;
+    height: 14px;
+    width: 185px;
+}
+
+.form_field_85 {
+    width: 77px;
+    background-image: url('http://www.harvard.com/images/Form_Field_85x24.png');
+}
+
+.form_field_85 input {
+    width: 70px;
+}
+
+.form_field_140 {
+    width: 132px;
+    background-image: url('http://www.harvard.com/images/Form_Field_140x24.png');
+}
+
+.form_field_140 input {
+    width: 125px;
+}
+
+.form_field_484 {
+    width: 476px;
+    background-image: url('http://www.harvard.com/images/Form_Field_484x24.png');
+}
+
+.form_field_484 input {
+    width: 469px;
+}
+
+.form_field_458 {
+    width: 450px;
+    background-image: url('http://www.harvard.com/images/Form_Field_458x24.png');
+}
+
+.form_field_458 input {
+    width: 443px;
+}
+
+.form table tr td.checkbox_label {
+    padding-left: 14px;
+}
+
+.form_ruled_section {
+    margin-top: 12px;
+    border-top: 1px solid #575757;
+    border-bottom: 1px solid #575757;
+    padding-top: 25px;
+    padding-bottom: 11px;
+    margin-bottom: 25px;
+}
+
+.form .form_radio_group table tr td {
+    padding-bottom: 5px;
+}
+
+.form .form_radio_group label {
+    color: #808285;
+    padding-bottom: 0;
+}
+
+.form_radio_group {
+    padding: 10px 0 0 80px;
+}
+
+.form label.group_label {
+    padding-top: 15px;
+}
+
+.form small {
+    color: #808285;
+    font-size: 11px;
+}
+
+ul.links,
+ul.news_items {
+    margin: 0 12px;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #ccc;
+}
+
+ul.links li a,
+ul.news_items li.news_link a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    background-image: url('http://www.harvard.com/images/Arrow_right.png');
+    background-position: 13px center;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 35px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+ul.links li a:hover,
+ul.news_items li.news_link a:hover {
+    color: #ED2939;
+    background-color: #f5f5f5;
+}
+
+ul.links li a .right,
+ul.news_items li.news_link a .right {
+    color: #808285;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+ul.news_items li.news_link a {
+    outline: none;
+}
+
+ul.news_items li.news_entry {
+    display: none;
+    border-bottom: 1px solid #ccc;
+    background: url('http://www.harvard.com/images/news_entry_bg.gif') repeat-y;
+}
+
+ul.news_items li.news_link a.current,
+ul.news_items li.news_link a.current:hover {
+    background-image: url('http://www.harvard.com/images/Arrow_down.png');
+}
+
+.news_entry_left {
+    float: left;
+    width: 510px;
+    padding: 15px 15px 0 15px;
+    background: #f5f5f5;
+}
+
+.news_entry_left p,
+.news_entry_right p {
+    padding: 0 0 15px 0;
+    margin: 0;
+    line-height: 18px;
+}
+
+.news_entry_right {
+    float: right;
+    width: 224px;
+    padding: 11px 0;
+}
+
+.news_entry_right_sidebar {
+    width: 212px;
+    padding-left: 11px;
+}
+
+.news_entry_right_sidebar_content {
+    padding: 15px 0 0 8px;
+}
+
+.news_entry_right_sidebar_content img {
+    max-width: 204px;
+}
+
+.bubble_news {
+    width: 178px;
+    padding: 10px 13px 2px 21px;
+    background: url('http://www.harvard.com/images/bubble_news_bg.gif') no-repeat top left;
+}
+
+.bubble_news_bottom {
+    height: 8px;
+    width: 212px;
+    background: url('http://www.harvard.com/images/bubble_news_bottom.gif') no-repeat top left;
+}
+
+.bubble_news_links {
+    line-height: 18px;
+}
+
+.about {
+    margin-left: 38px;
+    margin-top: 15px;
+}
+
+.main_title_with_about .about {
+    margin-left: 5px;
+    margin-top: 22px;
+}
+
+a.about_link {
+    height: 17px;
+    background: #fff url('http://www.harvard.com/images/Info_arrow.png') no-repeat top left;
+    ;
+    display: inline-block;
+    padding: 2px 6px 0 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+a.about_link:hover {
+    color: #ED2939;
+    background-image: url('http://www.harvard.com/images/Info_arrow_hover.png');
+}
+
+a.about_link_active {
+    background-image: url('http://www.harvard.com/images/Info_arrow_up.png');
+}
+
+a.about_link_active:hover {
+    background-image: url('http://www.harvard.com/images/Info_arrow_up_hover.png');
+}
+
+#about_content {
+    margin-left: 29px;
+    width: 700px;
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+.about_content_main {
+    background: url('http://www.harvard.com/images/about-shadow-bg.png') repeat-y;
+    padding: 0 9px;
+}
+
+.about_content_bottom {
+    height: 11px;
+    background: url('http://www.harvard.com/images/about-shadow-bottom.png') no-repeat;
+}
+
+#about_content p {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+}
+
+.about_padding {
+    padding: 15px;
+    line-height: 18px;
+    width: 652px;
+    background: #fff;
+}
+
+.about_buffer {
+    height: 13px;
+    width: 682px;
+    background: url('http://www.harvard.com/images/gray_diagonal_repeating.gif');
+}
+
+.about_bottom {} .main_title_clubs {
+    height: 211px;
+}
+
+.club_tabs_container {
+    margin: 12px 6px 0 38px;
+    border-bottom: 1px solid #c8c7c7;
+}
+
+.club_tabs {
+    background: none;
+    height: 36px;
+    overflow: hidden;
+}
+
+.club_tabs ul {
+    float: none;
+}
+
+.club_tabs ul li a {
+    background-color: #fff;
+}
+
+.ccp_event_books {
+    padding-top: 0;
+}
+
+.ccp_event_books .book_td,
+.event_books ul.books li {
+    height: 154px;
+}
+
+.main_title_ccp_event {
+    height: 160px;
+}
+
+.main_title_ccp_event .main_sub_title {
+    padding-top: 0px;
+}
+
+.ccp_event_shelf {
+    height: 215px;
+    background: url('http://www.harvard.com/images/shelves_bg.jpg');
+    width: 800px;
+}
+
+.ccp_club_shelf {
+    padding-bottom: 0;
+}
+
+.ccp_club_shelf .main_buffer {
+    display: none;
+}
+
+.results_advanced_search {
+    background: #161516 url('http://www.harvard.com/images/advanced_search_black_bg.gif') no-repeat 20px top;
+    padding: 20px;
+    color: #fff;
+    width: 760px;
+}
+
+.results_advanced_search h2 {
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #575757;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.results_advanced_divider {
+    border-left: 1px solid #575757;
+    float: left;
+    padding: 0 15px 5px 15px;
+}
+
+.directions {
+    padding: 21px 15px 10px 15px;
+}
+
+.directions_left {
+    float: left;
+    width: 536px;
+    border-right: 1px solid #4d4d4f;
+}
+
+.directions label {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding-right: 15px;
+}
+
+.directions table tr td {
+    padding: 5px 0;
+}
+
+.directions .destination_text {
+    color: #808285;
+    line-height: 18px;
+}
+
+input.directions_input {
+    width: 438px;
+    height: 21px;
+    border: none;
+    padding: 0;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 4px 10px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.directions_right {
+    float: right;
+    width: 192px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6d6e71;
+    padding-top: 5px;
+}
+
+.directions_right strong {
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.event_directions {
+    padding: 15px 0 10px 3px;
+}
+
+.wishlist_button_container {
+    margin-top: 3px;
+}
+
+.wishlist_item {
+    padding: 0 12px 12px 12px;
+}
+
+.book_shadow_full_top {
+    background: url('http://www.harvard.com/images/book_shadow_full_top.png');
+}
+
+.book_shadow_full_left {
+    background: url('http://www.harvard.com/images/book_shadow_full_left.png');
+}
+
+.book_shadow_full_right {
+    background: url('http://www.harvard.com/images/book_shadow_full_right.png');
+}
+
+.book_shadow_full_bottom {
+    background: url('http://www.harvard.com/images/book_shadow_full_bottom.png');
+}
+
+.wishlist_buffer {
+    height: 15px;
+    background: url('http://www.harvard.com/images/gray_diagonal_repeating.gif');
+    margin-bottom: 12px;
+}
+
+.wishlist_item_image {
+    float: left;
+    width: 140px;
+}
+
+.wishlist_title {
+    float: right;
+    width: 390px;
+}
+
+.wishlist_title .book_page_byline,
+.review_title .book_page_byline {
+    padding: 30px 0 0 0;
+}
+
+.wishlist_item .move_to_cart {
+    padding: 10px 0 0 0;
+    margin: 0;
+    float: right;
+}
+
+.wishlist_remove {
+    float: left;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+.wishlist_isbn {
+    margin-top: 23px;
+    line-height: 18px;
+    float: left;
+}
+
+.wishlist_isbn span {
+    color: #808285;
+}
+
+.wishlist_stock {
+    margin-top: 23px;
+    float: right;
+    line-height: 18px;
+    text-align: right;
+}
+
+.wishlist_title table {
+    width: 390px;
+}
+
+.wishlist_price {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.wishlist_price .price {
+    padding: 0;
+    margin: 0;
+}
+
+.wishlist_title_container {
+    width: 280px;
+}
+
+.review_header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bebebe;
+}
+
+.review_book {
+    float: left;
+    width: 140px;
+}
+
+.review_title {
+    float: right;
+    width: 360px;
+}
+
+.rating {
+    padding-top: 20px;
+}
+
+.my_reviews_buttons {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#eventshare {
+    padding-left: 15px;
+}
+
+.white_input {
+    width: 190px;
+    height: 21px;
+    background: url('http://www.harvard.com/images/Form_Field_200x30.png') no-repeat;
+    padding: 9px 0 0 10px;
+}
+
+.white_input input {
+    color: #ED2939;
+    font: 12px Arial, Helvetica, sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    height: 14px;
+    line-height: 12px;
+    width: 180px;
+}
+
+.home_ads {
+    width: 1010px;
+    margin: auto;
+    margin-top: 20px;
+    background: url('http://www.harvard.com/images/home_ads_bg.gif') repeat-y;
+}
+
+.ad_space_1 {
+    float: left;
+    width: 310px;
+    margin-right: 1px;
+    background: #fff url('http://www.harvard.com/images/home_ad_paige.gif') no-repeat top right;
+    height: 255px;
+}
+
+.ad_space_2 {
+    float: left;
+    width: 226px;
+    margin-right: 1px;
+    background: #fff url('http://www.harvard.com/images/home_ad_green.gif') no-repeat top right;
+    padding-left: 24px;
+    padding-bottom: 10px;
+}
+
+.ad_space_3 {
+    float: left;
+    width: 424px;
+    padding-left: 24px;
+}
+
+.event_ad_left {
+    float: left;
+    background: #fff;
+    padding-bottom: 10px;
+    width: 226px;
+}
+
+.event_ad_right {
+    float: right;
+}
+
+.home_event_bubble {
+    margin-top: 20px;
+    background: url('http://www.harvard.com/images/home_event_bubble.gif') no-repeat;
+    padding: 7px 0 0 7px;
+    height: 66px;
+    width: 219px;
+}
+
+.home_event_button {
+    margin-top: 11px;
+}
+
+.ad_space_2 h2 {
+    padding-top: 16px;
+}
+
+.ad_space_2 h2 a {
+    color: #808285;
+}
+
+.ad_space_2 h2 a:hover {
+    color: #ED2939;
+}
+
+.ad_space_2 p,
+.ad_space_1 p {
+    line-height: 18px;
+}
+
+.home_ad_button_2 {
+    margin-left: 0;
+}
+
+.ad_space_1 h2 {
+    padding-top: 40px;
+}
+
+.ad_space_1 h2 a {
+    color: #ED2939;
+}
+
+.ad_space_1 h2 a:hover {
+    color: #000;
+}
+
+.home_ad_button_1 {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.event_ad_ribbon {
+    position: absolute;
+    width: 187px;
+    z-index: 100;
+}
+
+.event_ad_ribbon img {
+    float: right;
+}
+
+.gift_reg {
+    display: block;
+    margin-top: 4px;
+}
+
+.sidebar_text {
+    padding: 18px 13px;
+    border-bottom: 1px solid #c8c8c8;
+    line-height: 18px;
+}
+
+.sidebar_text strong {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.sidebar_text_last {
+    padding-bottom: 29px;
+    border-bottom: none;
+    background: url('http://www.harvard.com/images/sidebar-triple-dotted-border.gif') repeat-x bottom;
+}
+
+.next_ccp_event {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.next_ccp_event span {
+    background: url('http://www.harvard.com/images/ccp-event-arrow-down.gif') no-repeat right center;
+    padding-right: 21px;
+}
+
+.hbs_channel_sidebar {
+    background: #fff url('http://www.harvard.com/images/sidebar_white_bg.jpg') repeat-y top right;
+}
+
+.hbs_channel_sidebar .tabs_container {
+    padding: 9px 11px 0 0;
+}
+
+.hbs_channel_sidebar .tabs ul {
+    float: left;
+}
+
+.hbs_channel_params {
+    padding: 10px 0 20px 0;
+}
+
+.hbs_channel_sidebar_list {
+    max-height: 900px;
+    overflow: auto;
+    overflow-x: hidden;
+    margin-top: 0;
+    margin-right: 11px;
+    position: relative;
+}
+
+.hbs_channel_sidebar_list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 284px;
+}
+
+.hbs_channel_sidebar_list ul li {
+    padding: 12px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.hbs_channel_sidebar_image {
+    float: left;
+    width: 100px;
+    height: 75px;
+    background: #202020;
+}
+
+.hbs_channel_sidebar_image a div {
+    position: absolute;
+    width: 23px;
+    height: 32px;
+    margin-top: 29px;
+    z-index: 100;
+    display: none;
+    padding: 14px 0 0 77px;
+}
+
+.hbs_channel_sidebar_image a:hover div,
+li:hover .hbs_channel_sidebar_image a div {
+    display: block;
+    background: rgb(237, 41, 57);
+    background: rgba(237, 41, 57, 0.85);
+}
+
+.hbs_channel_sidebar_content {
+    width: 160px;
+    padding-right: 15px;
+    float: right;
+    color: #808285;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.hbs_channel_sidebar_content h2 {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 3px;
+}
+
+li:hover .hbs_channel_sidebar_content h2 a {
+    color: #ED2939;
+}
+
+.video_books {
+    padding-top: 89px;
+    padding-left: 28px;
+}
+
+.video_content {
+    margin-top: 25px;
+    padding: 0 32px;
+}
+
+.video_content h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.video_date {
+    color: #808285;
+    padding-bottom: 4px;
+}
+
+.video_intro {
+    color: #808285;
+}
+
+.video_intro strong {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.video_content .about {
+    margin-left: 0;
+}
+
+#details_content,
+#about_author_content {
+    background: #fff;
+    display: none;
+}
+
+.video_content .about_padding {
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.video_content .about_padding p {
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+.logo_bottom_home {
+    position: absolute;
+    z-index: 100;
+    margin-top: 5px;
+    margin-left: 739px;
+}
+
+.rightblock {
+    padding: 13px;
+    margin-top: 13px;
+}
+
+.pattern1_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern1.gif');
+}
+
+.pattern2_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern2.gif');
+}
+
+.pattern3_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern3.gif');
+}
+
+.pattern4_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern4.gif');
+}
+
+.pattern5_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern5.gif');
+}
+
+.pattern6_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern6.gif');
+}
+
+.pattern7_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern7.gif');
+}
+
+.pattern8_rightblock {
+    background: url('http://www.harvard.com/images/Ad_borders/pattern8.gif');
+}
+
+.rightblock_container {
+    background: #fff;
+}
+
+h2.rightblock_title {
+    padding: 12px 12px 0 12px;
+}
+
+h2.pink_ad_title {
+    color: #ED2939;
+}
+
+h2.gray_ad_title {
+    color: #808285;
+}
+
+.rightblock_content {
+    padding: 0 12px 12px 12px;
+    line-height: 18px;
+}
+
+.pink_ad_content {
+    color: #ED2939;
+}
+
+.gray_ad_content {
+    color: #808285;
+}
+
+.cart_sidebar {
+    line-height: 18px;
+}
+
+.cart_sidebar ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    font-size: 14px;
+    color: #ED2939;
+    font-weight: bold;
+}
+
+.cart_sidebar ol span {
+    color: #000;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.cart_sidebar p {
+    padding-top: 10px;
+}
+
+#sb-container,
+#sb-wrapper {
+    text-align: left;
+}
+
+#sb-container,
+#sb-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#sb-container {
+    height: 100%;
+    display: none;
+    visibility: hidden;
+    z-index: 999;
+}
+
+body > #sb-container {
+    position: fixed;
+}
+
+#sb-overlay {
+    height: expression(document.documentElement.clientHeight + 'px');
+}
+
+#sb-container > #sb-overlay {
+    height: 100%;
+}
+
+#sb-wrapper {
+    position: relative;
+}
+
+#sb-wrapper img {
+    border: none;
+}
+
+#sb-body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #303030;
+}
+
+#sb-body-inner {
+    position: relative;
+    height: 100%;
+}
+
+#sb-content.html {
+    height: 100%;
+    overflow: auto;
+}
+
+#sb-loading {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sb-body,
+#sb-loading {
+    background-color: #060606;
+}
+
+#sb-title,
+#sb-info {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#sb-title-inner,
+#sb-info-inner {
+    position: relative;
+    font-family: 'Lucida Grande', Tahoma, sans-serif;
+    line-height: 16px;
+}
+
+#sb-title,
+#sb-title-inner {
+    height: 26px;
+}
+
+#sb-title-inner {
+    font-size: 16px;
+    padding: 5px 0;
+    color: #fff;
+}
+
+#sb-info,
+#sb-info-inner {
+    height: 20px;
+}
+
+#sb-info-inner {
+    font-size: 12px;
+    color: #fff;
+}
+
+#sb-nav {
+    float: right;
+    height: 16px;
+    padding: 2px 0;
+    width: 45%;
+}
+
+#sb-nav a {
+    display: block;
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+#sb-nav-close {
+    background-image: url(resources/close.png);
+    background-repeat: no-repeat;
+}
+
+#sb-nav-next {
+    background-image: url(resources/next.png);
+    background-repeat: no-repeat;
+}
+
+#sb-nav-previous {
+    background-image: url(resources/previous.png);
+    background-repeat: no-repeat;
+}
+
+#sb-nav-play {
+    background-image: url(resources/play.png);
+    background-repeat: no-repeat;
+}
+
+#sb-nav-pause {
+    background-image: url(resources/pause.png);
+    background-repeat: no-repeat;
+}
+
+#sb-counter {
+    float: left;
+    padding: 2px 0;
+    width: 45%;
+}
+
+#sb-counter a {
+    padding: 0 4px 0 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#sb-counter a.sb-counter-current {
+    text-decoration: underline;
+}
+
+div.sb-message {
+    font-family: 'Lucida Grande', Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+div.sb-message a:link,
+div.sb-message a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#nav ul li {
+    border-right: none;
+    border-bottom: 1px solid #DDD;
+    width: 170px;
+    height: 39px;
+    display: block;
+    visibility: visible
+}
+
+#nav ul li a {
+    border-right: none;
+    color: #6791AD;
+    text-shadow: 1px 1px 1px #FFF;
+    border-bottom: 1px solid #FFF
+}
+
+#nav ul li:hover {
+    background: #DFEEF0
+}
+
+#nav ul {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    z-index: 3 !important;
+    background: #f2f5f6;
+    border-bottom: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 2px 2px 3px #ECECEC;
+    -webkit-box-shadow: 2px 2px 3px #ECECEC;
+    -moz-box-shadow: 2px 2px 3px #ECECEC;
+    width: 170px;
+    padding: 0
+}
+
+#nav li:hover > ul {
+    display: block;
+    visibility: visible
+}
+
+#nav {
+    height: 39px;
+    font: 12px Geneva, Arial, Helvetica, sans-serif;
+    background: #3AB3A9;
+    border: 1px solid #30A097;
+    border-radius: 3px;
+    min-width: 500px;
+    margin-left: 0;
+    padding-left: 0
+}
+
+#nav li {
+    list-style: none;
+    display: block;
+    float: left;
+    height: 40px;
+    position: relative;
+    border-right: 1px solid #52BDB5
+}
+
+#nav li a {
+    line-height: 40px;
+    text-decoration: none;
+    border-right: 1px solid #389E96;
+    height: 40px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #66696B;
+    display: block;
+    margin: 0;
+    padding: 0 10px 0 30px
+}
+
+#nav #nav .site-name:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #66696B;
+    font: italic 20px/38px Georgia, "Times New Roman", Times, serif;
+    background: url(images/saaraan.png) no-repeat 10px 5px;
+    width: 160px;
+    border-right: 1px solid #52BDB5
+}
+
+#nav li:hover {
+    background: #3BA39B
+}
+
+#nav ul li:last-child,
+#nav ul li:last-child a {
+    border-bottom: none
+}
+
+#nav ul ul,
+#nav ul ul ul {
+    top: 0;
+    left: 170px;
+    display: none;
+    visibility: hidden;
+    border: 1px solid #DDD;
+    z-index: 3 !important;
+}
+
+#nav ul li ul li ul {
+    z-index: 100;
+}
+
+#nav ul li ul li {
+    z-index: 100;
+}
+
+#nav ul li a {
+    z-index: 100 !important;
+}
