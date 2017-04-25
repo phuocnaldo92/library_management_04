@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(version: 20170424092919) do
     t.integer  "publisher_id"
     t.string   "total_book"
     t.string   "title"
+    t.string   "picture"
+    t.string   "description"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
@@ -39,7 +41,6 @@ ActiveRecord::Schema.define(version: 20170424092919) do
     t.date     "to_date"
     t.integer  "number_borrow"
     t.string   "status"
-    t.string   "integer"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end

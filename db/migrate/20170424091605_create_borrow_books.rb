@@ -8,7 +8,6 @@ class CreateBorrowBooks < ActiveRecord::Migration[5.0]
       t.date :to_date
       t.integer :number_borrow
       t.string :status
-      t.string :integer
       t.timestamps
     end
   end

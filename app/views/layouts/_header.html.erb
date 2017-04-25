@@ -28,9 +28,9 @@
     </div>
     <div class="header_right">
       <ul class="header_buttons">
-        <li><%= link_to t("home"), root_path, class: "cart_button" %></li>
         <% if logged_in? %>
-          <li><%= link_to t("profile"), current_user, class: "cart_button" %>
+          <li><%= link_to t("home"), root_path, class: "cart_button" %></li>
+          <li><%= link_to t("books"), books_path, class: "cart_button" %>
           </li>
           <li><a class="cart_button"><%= t "book_cart" %></a></li>
           <li><%= link_to t("log_out"), logout_path, method: "delete",

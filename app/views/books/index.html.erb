@@ -1,0 +1,19 @@
+<div class="home-slider-book">
+  <div class="logo-bottom-rev"><%= image_tag "logo-bottom-rev.png" %></div>
+</div>
+<center>
+  <div class="list-book">
+    <% if @books.any? %>
+      <% @books.limit(Settings.number_six).each_with_index do |book, index| %>
+        <%= link_to book do %>
+         <div class="tri-box-<%= index + 1 %>">
+           <%= image_tag book.picture, class: "tri-image" %>
+         </div>
+        <% end %>
+      <% end %>
+      <%= will_paginate  %>
+    <% end %>
+    <div class="clear"></div>
+  </div>
+</center>
+</div>

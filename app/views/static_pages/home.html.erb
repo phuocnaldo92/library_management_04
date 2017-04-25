@@ -1,1 +1,177 @@
+<div class="home-slider">
+    <div class="logo-bottom-rev"><img src="assets/logo-bottom-rev.png" /></div>
+    <div class="pager"></div>
+      <div class="top-outer-wrap">
+        <div class="prevleft-Home moveleft"></div>
+          <ul class="top-inner-wrap">
+            <li class="slide-event">
+              <div class="slide-ribbon"><img src="http://www.harvard.com/images/eventribbons/ticketed.png"></div>
+              <div class="pic-bg">
+                <div class="slide-author-img">
+                  <img src="http://www.harvard.com//images/uploads/events/BarbaraLynchHBS0417.jpg" width="158" height="204"/>
+                </div>
+                <div class="slide-calendar">
+                  <div class="event_date_box left">
+                    <div class="date_box_month">Apr</div>
+                    <div class="date_box_day">18</div>
+                  </div>
+                  <div class="slide_bubble_date">
+                    Tuesday<br>April 18, 2017<br>6:00 PM
+                  </div>
+                </div>
+                <div class="slide-event-author">
+                  <a href="#">Barbara Lynch</a>
+                  <span><p>discusses</p>
+                  <p>
+                    <em>Out of Line:<br />A Life of Playing with Fire</em>
+                  </p>
+                  <p>in conversation with&nbsp;IHSAN GURDAL</p>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="slide-image">
+              <a href="">
+                <img src="http://www.harvard.com/images/uploads/Slider_Subscribe.png"/>
+              </a>
+            </li>
+          </ul>
+          <div class="nextright-Home moveright"></div>
+      </div>
+      <div class="home-intro">
+        <p><nobr><span>Welcome</span> <strong>to Library Management!</strong></nobr> <br/>
+        Explore book recommendations, author events, and more from
+          <strong> Here</strong>.
+        </p>
+      </div>
+  </div>
+
+  <div class="tri-box-teaser">
+    <% @books_top6.each_with_index do |book, index| %>
+      <a href=""  >
+        <div class="tri-box-<%= index +1 %>">
+          <img src="<%= book.picture %>" class="tri-image" />
+        </div>
+      </a>
+    <% end %>
+    <div class="clear"></div>
+  </div>
+  <div class="seeAll-featured"><a href="#">SEE ALL</a></div>
+  <div class="new-arrival-slider">
+    <div class="home-headline"><span>Top Rating</span></div>
+    <div class="arrival-slide-wrap">
+      <ul class="bxslider">
+        <% @books_top6.each_with_index do |book, index| %>
+          <li>
+            <table border="0" cellpadding="0" cellspacing="0" style="margin:0; width:155px;">
+              <tr>
+                <td class="book_td" style="width:155px; height:166px;">
+                  <center>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="book_shadow_leftcorner"></td>
+                        <td class="book_shadow_top"></td>
+                        <td class="book_shadow_rightcorner"></td>
+                      </tr>
+                      <tr>
+                        <td class="book_shadow_left"></td>
+                        <td>
+                          <a href=""><img src="<%= book.picture %>" width="100px" height="150px"/></a>
+                        </td>
+                        <td class="book_shadow_right"></td>
+                      </tr>
+                    </table>
+                  </center>
+                </td>
+              </tr>
+            </table>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="nextright-Arrival moveright"></div>
+  </div>
+  <div class="seeAll-featured"><a href="#">SEE ALL</a></div>
+  <div class="new-arrival-slider">
+    <div class="home-headline"><span>Top Borrow</span></div>
+    <div class="arrival-slide-wrap">
+      <ul class="bxslider">
+        <% @books_top6.each_with_index do |book, index| %>
+        <li>
+        <table border="0" cellpadding="0" cellspacing="0" style="margin:0; width:155px;">
+          <tr>
+            <td class="book_td" style="width:155px; height:166px;">
+              <center>
+                <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td class="book_shadow_leftcorner"></td>
+                    <td class="book_shadow_top"></td>
+                    <td class="book_shadow_rightcorner"></td>
+                  </tr>
+                  <tr>
+                    <td class="book_shadow_left"></td>
+                    <td>
+                      <a href=""><img src="<%= book.picture %>" width="100" height="150px"/></a>
+                    </td>
+                    <td class="book_shadow_right"></td>
+                  </tr>
+                </table>
+              </center>
+            </td>
+          </tr>
+        </table>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="nextright-Arrival moveright"></div>
+  </div>
+  <div class="featured-slider">
+    <div class="home-headline"><span>Favorite author</span></div>
+    <% 3.times do |n|%>
+      <div class="feature-box-wrap-<%= n + 1 %>">
+        <div class="prevleft-Feature moveleft"></div>
+          <ul class="feature-slide-wrap">
+            <% @books_top6.each_with_index do |book, index| %>
+              <li>
+                <table border="0" cellpadding="0" cellspacing="0" style="margin:10px 0 0 20px; width:193px;">
+                  <tr>
+                    <td class="book_td" style="height:252px;">
+                      <center>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td class="book_shadow_leftcorner"></td>
+                            <td class="book_shadow_top"></td>
+                            <td class="book_shadow_rightcorner"></td>
+                          </tr>
+                          <tr>
+                            <td class="book_shadow_left"></td>
+                            <td>
+                              <a href="#"><img src="<%= book.picture %>" width="150" height="200px" /></a>
+                            </td>
+                            <td class="book_shadow_right"></td>
+                          </tr>
+                        </table>
+                      </center>
+                    </td>
+                  </tr>
+                </table>
+              </li>
+            <% end %>
+          </ul>
+        <div class="nextright-Feature moveright"></div>
+      </div>
+    <% end %>
+
+    <% 3.times do |n|%>
+      <div class="feature-sub-title-wrap-<%= n + 1 %>"><span>Featured Signed Books</span></div>
+    <% end %>
+  </div>
+
+  <div class="bottom-seeAll">
+    <% 3.times do |n|%>
+      <div class="bottom-see-link-<%= n + 1 %>"><a href="#">SEE ALL</a></div>
+    <% end %>
+  </div>
+
 <%= javascript_include_tag "slides" %>

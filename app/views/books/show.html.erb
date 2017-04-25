@@ -1,0 +1,48 @@
+<%= stylesheet_link_tag "rating" %>
+<script language="javascript" type="text/javascript">
+        function OpenPopupCenter(pageURL, title, w, h) {
+            var left = (screen.width - w) / 2;
+            var top = (screen.height - h) / 4;  // for 25% - devide by 4  |  for 33% - devide by 3
+            var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        }
+    </script>
+<div class="home-slider-book">
+  <div class="logo-bottom-rev"><%= image_tag "logo-bottom-rev.png" %></div>
+</div>
+<div class="content">
+  <div class="content_shelves">
+    <div class="sidebar "></div>
+    <div class="main">
+      <table border="1" width="600px">
+        <tr>
+          <td width="200px"><%= image_tag @book.picture, class: "image-detail" %></td>
+          <td valign="top"><center><%= @book.title.upcase %></center>
+          <p><%= @book.description %></p>
+          </td>
+        </tr>
+        <tr>
+          <td width="200px">
+            <fieldset class="rating">
+              <%= raw @render_rating %>
+            </fieldset>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td width="200px">
+            <table style="width:100%">
+              <tr>
+                <td width="35"><image src="/assets/like.png"/></td>
+                <td align="left">123</td>
+                <td align="right"><a href="#" onclick="OpenPopupCenter('<%= carts_path %>'+'?id=<%=@book.id%>', 'TEST!?', 800, 600);"
+  >Add</a></td>
+              </tr>
+            </table>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>

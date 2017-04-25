@@ -1,0 +1,26 @@
+<%= form_for(carts_url) do |f| %>
+  <center>
+    <table border="1" style="width:200px; margin-top:100px;">
+      <tr>
+        <td colspan="2">
+          <%= image_tag @book.picture %>
+        </td>
+      </tr>
+      <tr>
+        <td width="50px">Number</td>
+        <td><%= f.number_field :number_borrow, min: 1, value: 1 %></td>
+      </tr>
+      <tr>
+        <td width="50px">Start Day</td>
+        <td><%= f.date_select :from_date %></td>
+      </tr>
+      <tr>
+        <td>End Day</td>
+        <td><%= f.date_select :end_date %></td>
+      </tr>
+      <tr>
+        <td colspan="2"><%= f.submit value: "submit"%></td>
+      </tr>
+  </table>
+</center>
+<% end %>

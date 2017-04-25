@@ -7,6 +7,8 @@ end
 
 gem "rails", "~> 5.0.2"
 gem "config"
+gem "will_paginate", "3.1.0"
+gem "bootstrap-will_paginate", "0.0.10"
 gem "bcrypt", "3.1.11"
 gem "sqlite3"
 gem "puma", "~> 3.0"
@@ -16,6 +18,8 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "carrierwave"
+gem "mini_magick", "~> 4.3"
 
 group :development, :test do
   gem "byebug", platform: :mri

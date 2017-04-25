@@ -43,3 +43,15 @@ en:
   not_found: "Not found"
   symbol: "@"
   num2017: "2017"
+  all_book: "All Book"
+  unsuccess: "Unsuccess rate!"
+  success_rate: "Success rate"
+  back: "Back"
+  form: "form"
+  show: "Show"
+  error: "error"
+  success_destroyed: "Book was successfully destroyed"
+  success_updated: "Book was successfully updated."
+  success_created.: "Book was successfully created."
+
+
