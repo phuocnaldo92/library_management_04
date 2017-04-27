@@ -1,0 +1,30 @@
+.list-book ul {
+    list-style-type: none;
+    text-align: center;
+    li {
+      color: #f1f1f1;
+      display: inline-table;
+    }
+}
+
+.home-slider-book {
+  width: 1010px;
+  height: 310px;
+  margin: auto;
+  background: url('') center 0 no-repeat;
+  margin-bottom: 50px;
+  border-top: 0px solid #231F20;
+    background-image: none !important;
+    height:40px !important;
+}
+
+div.pagination {
+    position: absolute;
+    bottom: 0;
+}
+
+.list-book {
+    width: 1010px;
+    position: relative;
+    padding-bottom: 30px;
+}

@@ -6,4 +6,5 @@ class Book < ApplicationRecord
     foreign_key: :book_id, dependent: :destroy
   has_many :borrow_books, class_name: BorrowBook.name,
     foreign_key: :book_id, dependent: :destroy
+  mount_uploader :picture, PictureUploader
 end
