@@ -32,7 +32,7 @@
           <li><%= link_to t("home"), root_path, class: "cart_button" %></li>
           <li><%= link_to t("books"), books_path, class: "cart_button" %>
           </li>
-          <li><a class="cart_button"><%= t "book_cart" %></a></li>
+          <li><%= link_to t("book_cart"), carts_path, class: "cart_button" %></li>
           <li><%= link_to t("log_out"), logout_path, method: "delete",
             class: "cart_button" %></li>
         <% else %>

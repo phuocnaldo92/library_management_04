@@ -4,8 +4,4 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include UsersHelper
   include CartsHelper
-
-  def current_order
-    session[:cart] ||= []
-  end
 end

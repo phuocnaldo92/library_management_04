@@ -1,26 +1,38 @@
-<%= form_for(carts_url) do |f| %>
-  <center>
-    <table border="1" style="width:200px; margin-top:100px;">
+<div class="home-slider2">
+    <div class="logo-bottom-rev"><img src="assets/logo-bottom-rev.png" /></div>
+    
+</div>
+<div class="tri-box-teaser">
+<center>
+    <table border="1" style="width:400px; margin-top:100px;">
+    <tr>
+        <th>Book
+        </th>
+        <th>Number
+        </th>
+        <th>From Date
+        </th>
+        <th>To Date
+        </th>      
+      </tr>
+    <% @order.each_with_index do |order, index| %>
       <tr>
-        <td colspan="2">
-          <%= image_tag @book.picture %>
+        <td valign="middle">
+        <center>
+        <image width="60px" height="80px" src="<%= Book.get_book_by_id( order["book_id"].to_i).picture %>" />
+        </center>
+        </td>
+        <td>
+        <%= order["number_borrow"] %>
+        </td>
+        <td>
+        <%= order["from_date"] %>
+        </td>
+        <td>
+        <%= order["to_date"] %>
         </td>
       </tr>
-      <tr>
-        <td width="50px">Number</td>
-        <td><%= f.number_field :number_borrow, min: 1, value: 1 %></td>
-      </tr>
-      <tr>
-        <td width="50px">Start Day</td>
-        <td><%= f.date_select :from_date %></td>
-      </tr>
-      <tr>
-        <td>End Day</td>
-        <td><%= f.date_select :end_date %></td>
-      </tr>
-      <tr>
-        <td colspan="2"><%= f.submit value: "submit"%></td>
-      </tr>
+      <% end %>
   </table>
-</center>
-<% end %>
+  </center>
+</div>
