@@ -2,7 +2,7 @@
 <script language="javascript" type="text/javascript">
         function OpenPopupCenter(pageURL, title, w, h) {
             var left = (screen.width - w) / 2;
-            var top = (screen.height - h) / 4;  // for 25% - devide by 4  |  for 33% - devide by 3
+            var top = (screen.height - h) / 4;
             var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
         }
     </script>
@@ -13,7 +13,7 @@
   <div class="content_shelves">
     <div class="sidebar "></div>
     <div class="main">
-      <table border="1" width="600px">
+      <table width="600px">
         <tr>
           <td width="200px"><%= image_tag @book.picture, class: "image-detail" %></td>
           <td valign="top"><center><%= @book.title.upcase %></center>
@@ -32,10 +32,23 @@
           <td width="200px">
             <table style="width:100%">
               <tr>
-                <td width="35"><image src="/assets/like.png"/></td>
-                <td align="left">123</td>
-                <td align="right"><a href="#" onclick="OpenPopupCenter('<%= carts_path %>'+'/<%=@book.id%>', 'TEST!?', 800, 600);"
-  >Add</a></td>
+                <td width="50">Số lượng</td>
+                <td align="left"><%= @number_book %></td>
+                <td align="right"></td>
+              </tr>
+            </table>
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td width="200px">
+            <table style="width:100%">
+              <tr>
+                <td width="35"><%= raw @render_like %></td>
+                <td align="left"><p id ="count_like"><%= raw @render_count_like %></p></td>
+                <td align="right">
+                  <img style="cursor: pointer;" src="/assets/shopping-icon.png" onclick="OpenPopupCenter('<%= carts_path %>'+'/<%=@book.id%>', 'TEST!', 800, 600);"></img></td>
               </tr>
             </table>
           </td>
@@ -46,3 +59,20 @@
     <div class="clear"></div>
   </div>
 </div>
+<center>
+<div style="width: 600px;">
+<div style="width: 100%;" id="comment_all">
+  <%= raw @render_comment  %>
+</div>
+  <table style="width:100%;">
+    <tr>
+      <td>
+        <textarea id="text_comment" style="width: 100%; height: 50px;" rows="1" value="">          
+        </textarea>
+      </td>
+      <td width="70px" align="left"><center><button id ="abc" name="<%= @book.id %>" onclick="do_comment(this)">Send</button></center></td>
+    </tr>
+  </table>
+</div>
+</center>
+

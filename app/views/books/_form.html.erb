@@ -15,17 +15,23 @@
     <%= f.label :category_id %>
     <%= f.text_field :category_id %>
   </div>
+
+    <%= f.fields_for :ralation_book_authors do |field| %>
+        <%= field.label :author_id %>
+        <%= field.text_field :author_id %>
+    <% end %>
+
   <div class="field">
     <%= f.label :number_of_page %>
-    <%= f.text_area :number_of_page %>
+    <%= f.text_field :number_of_page %>
   </div>
   <div class="field">
     <%= f.label :publisher_id %>
-    <%= f.text_area :publisher_id %>
+    <%= f.text_field :publisher_id %>
   </div>
   <div class="field">
     <%= f.label :total_book %>
-    <%= f.text_area :total_book %>
+    <%= f.text_field :total_book %>
   </div>
   <div class="field">
     <%= f.label :title %>

@@ -1,0 +1,15 @@
+<div class="home-slider-book">
+  <div class="logo-bottom-rev"><%= image_tag "logo-bottom-rev.png" %></div>
+</div>
+<center>
+<center>
+  <%= image_tag @author.picture, class: "image-detail" %>
+  <br/>
+  <% if (UserFollowAuthor.count_record current_user.id, params[:id]) == 0%>
+    <%= button_to "Follow", authors_path(id: @author.id, follow: "follow"), method: :create %>
+  <% else %>
+  	<%= button_to "Unfollow", authors_path(id: @author.id, follow: "unfollow"), method: :create %>
+  <% end %>
+  <%= link_to 'Edit', edit_author_path(@author) %> |
+  <%= link_to 'Back', authors_path %>
+</center>

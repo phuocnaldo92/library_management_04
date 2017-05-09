@@ -7,6 +7,7 @@ class CreateAuthors < ActiveRecord::Migration[5.0]
       t.date :birth_date
       t.date :death_date
       t.string :style
+      t.string :picture
       t.timestamps
     end
   end

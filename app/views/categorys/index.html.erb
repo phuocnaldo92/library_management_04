@@ -1,0 +1,30 @@
+<div class="home-slider2">
+    <div class="logo-bottom-rev"><img src="assets/logo-bottom-rev.png" /></div>  
+</div>
+<div class="wrapper" id="div-width">
+      <ul>
+        <%= raw render_html_menu2 %>
+      </ul>   
+      <%= form_for(:category) do |f| %>
+          <table class="table-width100">
+            <tr>
+              <td>
+                <%= f.label :parentid %>
+              </td>
+              <td>
+                <%= f.text_field :parentid, :value => @x %>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <%= f.label :title %>
+              </td>
+              <td>
+                <%= f.text_field :title %>
+              </td>
+            </tr>
+            </table>
+        <%= f.submit "Submit", class: "btn btn-default form-submit" %>
+        <% end %> 
+    <div class="clear"></div>
+</div>

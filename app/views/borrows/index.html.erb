@@ -1,0 +1,71 @@
+<div class="home-slider2">
+    <div class="logo-bottom-rev"><img src="assets/logo-bottom-rev.png" /></div>
+    
+</div>
+<div class="tri-box-teaser">
+<center>
+  <% if @borrow_books.size.zero? %>
+    <p>No request!</p>
+  <% else %>
+  
+    <table border="1" style="">
+    <tr>
+        <th>Book
+        </th>
+        <th>User
+        </th>
+        <th>Number
+        </th>
+        <th>From Date
+        </th>
+        <th>To Date
+        </th>   
+        <% if @params_type ==1%>   
+        <th>Reject
+        </th>
+        <th>Accept
+        </th>
+        <% else %>
+        <th>Return
+        </th>
+        <% end %>
+      </tr>
+     
+    <% @borrow_books.each_with_index do |borrow_book, index| %>
+      <tr>
+        <td valign="middle">
+        <center>
+        <image width="60px" height="80px" src="<%= Book.get_book_by_id( borrow_book["book_id"].to_i).picture %>" />
+        </center>
+        </td>
+        <td>
+        <%= (User.find_by id: borrow_book["user_id"].to_i)[:email] %>
+        </td>
+        <td>
+        <%= borrow_book["number_borrow"] %>
+        </td>
+        <td>
+        <%= borrow_book["from_date"] %>
+        </td>
+        <td>
+        <%= borrow_book["to_date"] %>
+        </td>
+        <% if @params_type ==1%>   
+          <td>
+            <%= button_to "Reject", borrow_path(id: borrow_book["id"].to_i, type: 1), method: :delete %>
+          </td>
+          <td>
+            <%= button_to "Accept", borrow_path(id: borrow_book["id"].to_i, type: 1), method: :patch %>
+          </td>
+        <% else %>
+          <td>
+            <%= button_to "Return", borrow_path(id: borrow_book["id"].to_i, type: 2), method: :delete %>
+          </td>
+        <% end %>
+        
+      </tr>
+      <% end %>      
+  </table>
+  <% end%>
+  </center>
+</div>

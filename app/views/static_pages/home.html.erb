@@ -4,37 +4,29 @@
       <div class="top-outer-wrap">
         <div class="prevleft-Home moveleft"></div>
           <ul class="top-inner-wrap">
-            <li class="slide-event">
-              <div class="slide-ribbon"><img src="http://www.harvard.com/images/eventribbons/ticketed.png"></div>
+          <% @author_top3.each_with_index do |author, index| %>
+          <li class="slide-event">              
               <div class="pic-bg">
                 <div class="slide-author-img">
-                  <img src="http://www.harvard.com//images/uploads/events/BarbaraLynchHBS0417.jpg" width="158" height="204"/>
-                </div>
-                <div class="slide-calendar">
-                  <div class="event_date_box left">
-                    <div class="date_box_month">Apr</div>
-                    <div class="date_box_day">18</div>
-                  </div>
-                  <div class="slide_bubble_date">
-                    Tuesday<br>April 18, 2017<br>6:00 PM
-                  </div>
+                  <img src="<%= author.picture %>" width="158" height="204"/>
                 </div>
                 <div class="slide-event-author">
-                  <a href="#">Barbara Lynch</a>
-                  <span><p>discusses</p>
+                  <a href="authors/<%= author.id %>"><%= author.name %></a>
+                  <span><p>Sub name: <%= author.sub_name %></p>
                   <p>
-                    <em>Out of Line:<br />A Life of Playing with Fire</em>
+                    <em>Birth date:<br /><%= author.birth_date %></em>
                   </p>
-                  <p>in conversation with&nbsp;IHSAN GURDAL</p>
-                  </span>
+                  <p>
+                    <em>Death date:<br /><%= author.death_date %></em>                    
+                  </p>  
+                  <p>
+                    <em>Style: <%= author.style %></em>                    
+                  </p>                 
+                  </span>                                  
                 </div>
               </div>
             </li>
-            <li class="slide-image">
-              <a href="">
-                <img src="http://www.harvard.com/images/uploads/Slider_Subscribe.png"/>
-              </a>
-            </li>
+            <% end %>
           </ul>
           <div class="nextright-Home moveright"></div>
       </div>
@@ -48,7 +40,7 @@
 
   <div class="tri-box-teaser">
     <% @books_top6.each_with_index do |book, index| %>
-      <a href=""  >
+      <a href="books/<%= book.id %>"  >
         <div class="tri-box-<%= index +1 %>">
           <img src="<%= book.picture %>" class="tri-image" />
         </div>
@@ -56,12 +48,12 @@
     <% end %>
     <div class="clear"></div>
   </div>
-  <div class="seeAll-featured"><a href="#">SEE ALL</a></div>
+  <div class="seeAll-featured"><a href="/nooks">SEE ALL</a></div>
   <div class="new-arrival-slider">
     <div class="home-headline"><span>Top Rating</span></div>
     <div class="arrival-slide-wrap">
       <ul class="bxslider">
-        <% @books_top6.each_with_index do |book, index| %>
+        <% @get_top6_rating.each_with_index do |book, index| %>
           <li>
             <table border="0" cellpadding="0" cellspacing="0" style="margin:0; width:155px;">
               <tr>
@@ -76,7 +68,7 @@
                       <tr>
                         <td class="book_shadow_left"></td>
                         <td>
-                          <a href=""><img src="<%= book.picture %>" width="100px" height="150px"/></a>
+                          <a href="books/<%= book.id %>"><img src="<%= book.picture %>" width="100px" height="150px"/></a>
                         </td>
                         <td class="book_shadow_right"></td>
                       </tr>

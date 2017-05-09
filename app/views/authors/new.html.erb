@@ -1,5 +1,5 @@
 <div class="home-slider-book">
   <div class="logo-bottom-rev"><%= image_tag "logo-bottom-rev.png" %></div>
 </div>
-<%= render I18n.t("form"), book: @book %>
-<%= link_to I18n.t("back"), books_path %>
+<%= render 'form', author: @author %>
+<%= link_to 'Back', authors_path %>

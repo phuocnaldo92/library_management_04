@@ -1,3 +1,4 @@
+require 'csv'
 class User < ApplicationRecord
 
   has_secure_password
@@ -17,4 +18,20 @@ class User < ApplicationRecord
     foreign_key: :user_id, dependent: :destroy
   has_many :user_action_books, class_name: UserActionBook.name,
     foreign_key: :user_id, dependent: :destroy
+
+  scope :get_all_user_not_is_admin, -> do
+    where("role not in (0)")
+  end
+
+  def self.to_csv
+    attributes = %w{id email}
+
+    CSV.generate(headers: true) do |csv|
+      csv << attributes
+
+      all.each do |user|
+        csv << attributes.map{ |attr| user.send(attr) }
+      end
+    end
+  end
 end

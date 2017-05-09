@@ -30,11 +30,16 @@
       <ul class="header_buttons">
         <% if logged_in? %>
           <li><%= link_to t("home"), root_path, class: "cart_button" %></li>
-          <li><%= link_to t("books"), books_path, class: "cart_button" %>
-          </li>
+          <li><%= link_to "Feeds", feeds_path, class: "cart_button" %></li>
+          <li><%= link_to t("books"), books_path, class: "cart_button" %></li>
           <li><%= link_to t("book_cart"), carts_path, class: "cart_button" %></li>
           <li><%= link_to t("log_out"), logout_path, method: "delete",
             class: "cart_button" %></li>
+            <% if current_user.role == 0 %>
+                <li><%= link_to "Borrow", (borrows_path+ "?type=1"), class: "cart_button" %></li>
+                <li><%= link_to "Return", (borrows_path+ "?type=2"), class: "cart_button" %></li>
+                <li><%= link_to "Users", users_path, class: "cart_button" %></li>
+              <% end %>
         <% else %>
           <li><%= link_to t("login"), login_path, class: "cart_button" %></li>
           <li>
@@ -55,7 +60,8 @@
         <label for="search_in"><%= t "search_in" %></label>
         <select id="search_in" name="search_in"
           onchange="toggle_advanced_fields();">
-          <option value="booksite"><%= t "all_books" %></option>
+          <option value="books"><%= t "all_books" %></option>
+          <option value="authors">Author</option>
         </select>
       </div>
       <div class="clear"></div>

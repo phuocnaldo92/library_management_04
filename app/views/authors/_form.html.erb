@@ -1,0 +1,42 @@
+<%= form_for(author) do |f| %>
+  <% if author.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
+      <ul>
+      <% author.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :sub_name %>
+    <%= f.text_field :sub_name %>
+  </div>
+  <div class="field">
+    <%= f.label :birth_date %>
+    <%= f.date_select :birth_date%>
+  </div>
+  <div class="field">
+    <%= f.label :death_date %>
+    <%= f.date_select :death_date%>
+  </div>
+  <div class="field">
+    <%= f.label :style %>
+    <%= f.text_area :style %>
+  </div>
+  <div class="form-group">
+    <%= f.label :picture, class: "col-sm-2 control-label" %>
+    <div class="col-sm-6">
+      <%= f.file_field :picture %>
+    </div>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

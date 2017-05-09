@@ -3,8 +3,8 @@ class CartsController < ApplicationController
     layout "application2", only:[:show]
     before_action :find_book, only: [:show]
     before_action :check_login, only: [:create]
+    before_action :get_all_oder, only: [:index, :create, :destroy]
     def index
-      @order = current_order
       @book = Book.new
     end
 
@@ -13,7 +13,6 @@ class CartsController < ApplicationController
     end
 
     def create
-      @order = current_order
       params_cart = params[:cart]
       from_date = Date.new params_cart["from_date(1i)"].to_i, params_cart["from_date(2i)"].to_i, params_cart["from_date(3i)"].to_i
       to_date = Date.new params_cart["to_date(1i)"].to_i, params_cart["to_date(2i)"].to_i, params_cart["to_date(3i)"].to_i
@@ -27,6 +26,11 @@ class CartsController < ApplicationController
     end
 
     def destroy
+      params_id = params[:id].to_i
+      @order.delete_at params_id
+      params = nil
+      redirect_to carts_path
+      # debugger
     end
 
     private
@@ -35,14 +39,14 @@ class CartsController < ApplicationController
       @book = Book.find_by id: params[:id]
     end
 
+    def get_all_oder
+      @order = current_order
+    end
+
     def check_login
       if logged_in?
       else
         render :exit
       end
     end
-
-    # def order_item_params
-    #   params.require(:borrow_book).permit(:number_borrow, :from_date, :to_date)
-    # end
 end

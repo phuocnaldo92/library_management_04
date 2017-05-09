@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require_tree .
 //= stub "slides"
+//= stub "feeds"
 

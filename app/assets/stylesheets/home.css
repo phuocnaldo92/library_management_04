@@ -218,7 +218,7 @@
     width: 1010px;
     height: 310px;
     margin: auto;
-    background: url('http://www.harvard.com/images/home_rev/main_slider-bg_rev.jpg') center 0 no-repeat;
+    background: url('/assets/main_slider-bg_rev.jpg') center 0 no-repeat;
     margin-bottom: 50px;
     border-top: 0px solid #231F20;
 }
@@ -484,13 +484,13 @@ ul.slides {
 
 .prevleft-Home:hover {
     cursor: pointer;
-    background: url('http://www.harvard.com/images/home_rev/arrow-left-red.png') center center no-repeat;
+    background: url('/assets/arrow-left-red.png') center center no-repeat;
 }
 
 .nextright-Home {
     width: 30px;
     height: 64px;
-    background: url('http://www.harvard.com/images/home_rev/arrow-right-blk.png') center center no-repeat;
+    background: url('/assets/arrow-right-blk.png') center center no-repeat;
     display: inline-block;
     float: right;
     position: relative;
@@ -594,7 +594,7 @@ li.slide-image img {
 
 .slide-event-author {
     width: 256px;
-    height: 134px;
+    height: 170px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
@@ -4301,4 +4301,33 @@ div.sb-message a:visited {
 
 #nav ul li a {
     z-index: 100 !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    margin-left: -160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.feeds{
+    width: 1010px; background-color: #ccffcc; min-height: 40px;  border: 1px solid; border-radius: 25px; border-color: #003366;
+}
+
+.feedsp{
+    float: left; padding-left: 20px;
 }

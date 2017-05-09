@@ -1,0 +1,32 @@
+<div class="home-slider2">
+  <div class="logo-bottom-rev"><img src="assets/logo-bottom-rev.png" /></div>
+</div>
+<div class="tri-box-teaser">
+  <center>
+  <% if @user.size.zero? %>
+  <p>No Record!</p>
+  <% else %>
+    <table border="1" style="">
+    <tr>
+      <th>Email
+      </th>
+      <th>Delete
+      </th>
+    </tr>
+    <% @user.each_with_index do |user, index| %>
+    <% if user.role != 0%>
+      <tr>      
+        <td>
+        <%= user["email"] %>
+        </td>   
+        <td>     
+        <%= button_to "Delete", user_path(id: user.id), method: :delete %>
+        </td>
+      </tr>
+    <% end %>
+      <% end %>      
+  </table>
+  <% end%>
+  <%= button_to "Export CSV", "/export.csv", method: :get %>
+  </center>
+</div>
